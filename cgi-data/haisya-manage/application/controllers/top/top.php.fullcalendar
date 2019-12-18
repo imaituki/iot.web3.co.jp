@@ -1,0 +1,59 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+/**
+ * 
+ * トップページ表示を行うクラス
+ * * @author ta-ando
+ *
+ */
+class Top extends Search_Controller 
+{
+
+	/**
+	 * コンストラクタ
+	 * ・画面独自のライブラリ、ヘルパなどの読み込み
+	 * ・画面で使用する変数情報をセット
+	 */
+	public function __construct()
+	{
+		parent::__construct();
+		// これ以降にコードを書いていく
+
+		/*
+		 * 画面に固有の情報をセット
+		 */
+
+		$this->package_name = 'top';
+		$this->package_label = config_item("{$this->package_name}_package_name_label");
+		$this->current_main_menu = 'home';
+		$this->common_h3_tag = "{$this->package_label}カレンダー";
+		$this->page_type = Page_type::SIMPLE;
+		$this->attendance_model = $this->T_attendance;
+		$this->_page_setting();
+
+		//設定ファイルから画面の設定を読み込む処理。
+		$this->_config_setting();
+
+		/*
+		 * この機能に必要な情報がセッションに保持されているか確認する
+		 */
+
+		if ( ! $this->application_session_data->can_access_package($this->package_name))
+		{
+			show_error('不正な画面遷移が行われています。再度メニューから操作を行ってください。');
+		}
+
+		//HTTPのGET,POST情報を$this->dataに移送
+		$this->_httpinput_to_data();
+	}
+
+	/**
+	 * 初期表示を行う。
+	 */
+	public function index()
+	{
+		$this->_unset_page_session();
+        $this->_check_attendance();
+		$this->_load_tpl($this->_get_view_name(View_type::INDEX), $this->data);
+	}
+}

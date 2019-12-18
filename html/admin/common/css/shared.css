@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*
+	Last Update:2016/12/02
+	Auther: kawasaki
+*/
+
+/*===================================================================
+	.o -> マウスホバー
+===================================================================*/
+.ov50:hover { opacity: 0.25; filter:progid:DXImageTransform.Microsoft.Alpha(Enabled=1,Style=0,Opacity=25); }
+.ov50:hover { opacity: 0.50; filter:progid:DXImageTransform.Microsoft.Alpha(Enabled=1,Style=0,Opacity=50); }
+.ov75:hover { opacity: 0.75; filter:progid:DXImageTransform.Microsoft.Alpha(Enabled=1,Style=0,Opacity=75); }
+.oi25:hover img { opacity: 0.25; filter:progid:DXImageTransform.Microsoft.Alpha(Enabled=1,Style=0,Opacity=25); }
+.oi50:hover img { opacity: 0.50; filter:progid:DXImageTransform.Microsoft.Alpha(Enabled=1,Style=0,Opacity=50); }
+.oi75:hover img { opacity: 0.75; filter:progid:DXImageTransform.Microsoft.Alpha(Enabled=1,Style=0,Opacity=75); }
+
+/* ボタン用 */
+.oi { display:block; }
+.oi img { background-color:transparent; }
+.oi:hover { background-color:transparent; }
+.oi:hover img { visibility:hidden; }
+
+
+/*===================================================================
+		.f -> font
+===================================================================*/
+.f_bold { font-weight:bold; }
+
+
+
+/*===================================================================
+		.h -> h1~h6
+===================================================================*/
+.h_1 {}
+
+
+/*===================================================================
+		.tbl -> table
+===================================================================*/
+.tbl_1 {}
+
+/*===================================================================
+	.pos -> text-align
+===================================================================*/
+#wrapper .pos_al { text-align:left;}
+#wrapper .pos_ac { text-align:center;}
+#wrapper .pos_ar { text-align:right;}
+
+#wrapper .pos_vt { vertical-align:top; }
+#wrapper .pos_vm { vertical-align:middle; }
+#wrapper .pos_vb { vertical-align:bottom; }
+
+
+/*===================================================================
+	.fl -> float
+===================================================================*/
+#wrapper .fl_left  { float:left; }
+#wrapper .fl_right { float:right; }
+
+#wrapper .fl_left  .fl_image { margin:0 15px 5px 0; }
+#wrapper .fl_right .fl_image { margin:0 0 5px 15px; }
+
+	/* IE5.x-6 Hack */
+	* html .fl_left,
+	* html .fl_right {display:inline;}
+
+/*===================================================================
+	.m -> margin , .p -> padding
+===================================================================*/
+#wrapper .mb0  { margin-bottom:0px; }
+#wrapper .mb5  { margin-bottom:5px; }
+#wrapper .mb10 { margin-bottom:10px; }
+#wrapper .mb15 { margin-bottom:15px; }
+#wrapper .mb20 { margin-bottom:20px; }
+#wrapper .mb25 { margin-bottom:25px; }
+#wrapper .mb30 { margin-bottom:30px; }
+#wrapper .mb35 { margin-bottom:35px; }
+#wrapper .mb40 { margin-bottom:40px; }
+#wrapper .mb45 { margin-bottom:45px; }
+#wrapper .mb50 { margin-bottom:50px; }
+#wrapper .mb55 { margin-bottom:55px; }
+#wrapper .mb60 { margin-bottom:60px; }
+#wrapper .mb65 { margin-bottom:65px; }
+#wrapper .mb70 { margin-bottom:70px; }
+#wrapper .mb75 { margin-bottom:75px; }
+#wrapper .mb80 { margin-bottom:80px; }
+#wrapper .mb85 { margin-bottom:85px; }
+#wrapper .mb90 { margin-bottom:90px; }
+#wrapper .mb95 { margin-bottom:95px; }
+#wrapper .mb100 { margin-bottom:100px; }
+
+
+#wrapper .mt10 { margin-top:10px; }
+#wrapper .mt20 { margin-top:20px; }
+#wrapper .mt30 { margin-top:30px; }
+
+
+
+#wrapper .pl40 { padding-left:40px; }
+
+
+/*===================================================================
+	.w -> 横サイズ
+===================================================================*/
+#wrapper .w10 { width:10px; }
+#wrapper .w20 { width:20px; }
+#wrapper .w30 { width:30px; }
+#wrapper .w40 { width:40px; }
+#wrapper .w50 { width:50px; }
+#wrapper .w60 { width:60px; }
+#wrapper .w70 { width:70px; }
+#wrapper .w80 { width:80px; }
+#wrapper .w90 { width:90px; }
+#wrapper .w100 { width:100px; }
+#wrapper .w110 { width:110px; }
+#wrapper .w120 { width:120px; }
+#wrapper .w130 { width:130px; }
+#wrapper .w140 { width:140px; }
+#wrapper .w150 { width:150px; }
+#wrapper .w160 { width:160px; }
+#wrapper .w170 { width:170px; }
+#wrapper .w180 { width:180px; }
+#wrapper .w190 { width:190px; }
+#wrapper .w200 { width:200px; }
+#wrapper .w210 { width:210px; }
+#wrapper .w220 { width:220px; }
+#wrapper .w230 { width:230px; }
+#wrapper .w240 { width:240px; }
+#wrapper .w250 { width:250px; }
+#wrapper .w260 { width:260px; }
+#wrapper .w270 { width:270px; }
+#wrapper .w280 { width:280px; }
+#wrapper .w290 { width:290px; }
+#wrapper .w300 { width:300px; }
+#wrapper .w310 { width:310px; }
+#wrapper .w320 { width:320px; }
+#wrapper .w330 { width:330px; }
+#wrapper .w340 { width:340px; }
+#wrapper .w350 { width:350px; }
+#wrapper .w360 { width:360px; }
+#wrapper .w370 { width:370px; }
+#wrapper .w380 { width:380px; }
+#wrapper .w390 { width:390px; }
+#wrapper .w400 { width:400px; }
+#wrapper .w410 { width:410px; }
+#wrapper .w420 { width:420px; }
+#wrapper .w430 { width:430px; }
+#wrapper .w440 { width:440px; }
+#wrapper .w450 { width:450px; }
+#wrapper .w460 { width:460px; }
+#wrapper .w470 { width:470px; }
+#wrapper .w480 { width:480px; }
+#wrapper .w490 { width:490px; }
+#wrapper .w500 { width:500px; }
+#wrapper .w620 { width:620px; }
+#wrapper .w700 { width:700px; }
+#wrapper .w800 { width:800px; }

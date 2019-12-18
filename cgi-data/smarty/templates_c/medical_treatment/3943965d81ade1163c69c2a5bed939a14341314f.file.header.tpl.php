@@ -1,0 +1,45 @@
+<?php /* Smarty version Smarty-3.1.18, created on 2019-07-17 10:18:13
+         compiled from "/home/jwcc/8071/html/common/include/header.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:10504025215d2e77558d9f53-08083967%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '3943965d81ade1163c69c2a5bed939a14341314f' => 
+    array (
+      0 => '/home/jwcc/8071/html/common/include/header.tpl',
+      1 => 1563326025,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '10504025215d2e77558d9f53-08083967',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5d2e77558db158_47786107',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5d2e77558db158_47786107')) {function content_5d2e77558db158_47786107($_smarty_tpl) {?><header>
+<div id="head" class="center4">
+  <h1 class="site_logo"><a class="ov" href="/"><img src="/common/image/head/logo.png" alt="医療法人まつい皮膚科"></a></h1>
+  <nav style="width: 100%;">
+    <div id="btn_open">
+      <a href="javascript:void(0);"><i class="fa fa-bars"></i></a>
+    </div>
+    <div id="head_navi">
+      <div class="main">
+        <ul class="center">
+          <li class="active"><a href="/">ホーム</a></li>
+          <li><a href="/company/">当院について</a></li>
+          <li><a href="/business/">医師紹介</a></li>
+          <li><a href="/recruit/">診療・各種治療</a></li>
+          <li><a href="/information/">料金表</a></li>
+          <li><a href="/contact/">お問い合わせ</a></li>
+          <li><a href="/privacy/">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+</header>
+<?php }} ?>

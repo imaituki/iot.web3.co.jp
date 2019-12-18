@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+/*
+	Last Update:2016/12/02
+	Auther: kawasaki
+*/
+
+/*===================================================================
+	共通部分
+===================================================================*/
+
+/**/
+.radio.inline { padding-top:0;}
+.radio.inline input[type="radio"] { margin-left:20px; position:relative;}
+.radio.inline input[type="radio"]:first-child { margin-left:0;}
+.radio.inline input[type="radio"] + label { }
+.radio > ul > li { margin-bottom: 5px; }
+.radio > ul > li:last-child { margin-bottom: 0; }
+
+/**/
+.error_txt { padding:10px; border: 1px solid red; color: red; margin-bottom: 15px; text-align: center; border-radius: 3px;}
+
+/**/
+.navbar-default {}
+.nav li i { width: 1.2em; text-align: center; }
+.nav-second-level li a {padding: 10px 10px 10px 40px}
+
+/**/
+.page_navi { font-size:15px;}
+
+/**/
+.move_i { position: relative; width: 50px; text-align: center;}
+.move_i i { border: 1px solid #1AB394; color: #676a6c; padding:5px; border-radius:3px; }
+.move_i i span { position: absolute; top: 0; left: 0; width:100%; height: 100%; cursor: move;}
+
+/**/
+.ct_tag {}
+.ct_tag span { display: inline-block; padding:2px 10px; border: 1px solid; border-radius: 5px; min-width: 90px; text-align: center; color: #fff;}
+.ct_tag.category_1 span { background: #bf3148; border-color: #bf3148;}
+.ct_tag.category_2 span { background: #3268bf; border-color: #3268bf;}
+.ct_tag.category_3 span { background: #616b64; border-color: #616b64;}
+.ct_tag.category_4 span { background: #1f9e45; border-color: #1f9e45;}
+.ct_tag.category_5 span { background: #ffbc00; border-color: #ffbc00;}
+.ct_tag.category_6 span { background: #5C9B16; border-color: #5C9B16;}
+
+/**/
+.table.tbl_1 {}
+.table.tbl_1 th,
+.table.tbl_1 td { vertical-align: middle;}
+.table.tbl_1 thead th.delete { width:95px; }
+
+/**/
+.ct_list {}
+.ct_list ul { list-style: none; padding-left: 0;}
+.ct_list li { display:inline-block; margin-bottom: 5px;}
+.ct_list li > * { display: block; padding:5px 10px; border:1px solid; border-radius: 3px;}
+.ct_list li > a { background: #eee; border-color: #eee; color: #666;}
+.ct_list li > span { border-color: #1ab394 ; color: #1ab394;}
+
+/**/
+.reset_btn { font-size: 13px; display: inline-block; vertical-align: middle; color: #d9534f; padding:5px 10px; }
+
+/**/
+input.form-control.datepicker { background:#FFF; }
+
+/**/
+.category_wrap ul { padding-left:0; }
+.category_wrap ul li { display:inline-block; min-width:30%; padding-right:20px; }
+
+/**/
+.error { background:#FFE9E9; color:#D12225; }
+
+/**/
+.required label.control-label:before { content:"必須"; display:inline-block; margin-right:10px; padding:2px 5px; background:#1AB394; color:#FFF; font-weight:normal; font-size:11px; }
+
+/**/
+td.pos_al > div,lightBoxGallery { text-align:left; }
+
+/**/
+#msg.ok { padding:2px 5px; background:#F0FCF2; color:#1AB294; }
+
+.profile-element.dropdown .text-muted {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 10px;
+    transition: all 0.2s ease 0s;
+    margin-top: 10px;
+}
+.profile-element.dropdown .text-muted:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #263949;
+}
+
+/**/
+.hd_1 { font-size: 15px; color: #1ab394; border-bottom: 1px solid #1ab394; padding-bottom: 7.5px;}
+
+
+/*===================================================================
+	#order
+===================================================================*/
+#order {}
+
+	/*.order_subtotal*/
+	.order_subtotal { text-align: right;}
+	.order_subtotal p { display: inline-table; border: 1px solid #1ab394; table-layout: fixed; min-width: 250px;} 
+	.order_subtotal p > span { display:table-cell; vertical-align: middle; padding:10px;}
+	.order_subtotal p > span.f_bold { color: #1ab394; text-align: center; border-right: 1px solid #1ab394; width:80px;}
+	
+
+
+/*===================================================================
+	#--
+===================================================================*/
+#-- {}
+
+	/*-------------------------------------------------------------------
+		#top_xxxx
+	-------------------------------------------------------------------*/
+
+
+/*===================================================================
+	#login
+===================================================================*/
+#login { background:#F3F3F5; border-top:40px solid #2F4050; }
+#login .large,
+#login .message_text .large { font-size:18px; }
+#login .container { max-width: 400px;}
+#login .message_text { text-align:center; margin-bottom:15px;}
+#login .message_text h1.large { font-size:30px;}
+#login .message_text h1.large span { font-size: 18px; display: inline-block;; vertical-align:middle; padding-top: 20px; }
+#login .message_text h2 { margin-bottom:15px;}
+#login .message_text p { font-size:14px; line-height:170%;}
+#login form > div { margin-bottom:12px;}
+#login #pass { margin-bottom:20px;}
+#login .button button { color:#fff; width:100%; font-size:17px; background:#1ab394; border:2px solid #1ab394; padding:12px; border-radius:5px; transition:.2s; margin-bottom:40px;}
+#login .button button:hover { background:#fff; color:#1ab394;}
+#login .button  p { text-align:center; font-size:16px;}
+#login input[type="text"],#login input[type="password"] { font-size: 16px; width: 100%; height: auto; padding: 10px; border-radius:3px;}
+#login #foot { text-align:center;}
+
+@media(min-width:768px){
+#login #foot { position:fixed; width:100%; bottom:0; left:0;}
+}
+
+	/* shared変更 */
+
+	#login .f_bold { font-weight:bold; }
+	#login input[type="text"], #login input[type="password"] { background:#FFF; }
+	#login .container.max_w400 { max-width:400px !important; }
+	#login .container { max-width:none !important; }
+	#login .pos_ac { text-align:center; }
+
+	/* フッター調整 */
+	.position_fixed_bottom { padding-bottom:30px; }
+
+	/* box */
+	#login .box { padding:50px 30px; background:#FFF; }
+	#login .box_content { max-width:680px; margin:0 auto; }
+	#login .box .button_download { text-align:center; }
+	#login .box .button_download button { max-width:360px; margin:0 auto; background:#ED5564; border:2px solid #ED5564; }
+	#login .box .button_download button:hover { background:#FFF; color:#ED5564; }
+	#login .box > *:last-child { margin-bottom:0 !important; }
+	#login .box .box_green { margin-bottom:30px; padding:10px 15px; background:#D5EEE8; }
+	#login .box .user_info { margin-bottom:30px; border:1px solid #E5E5E5; }
+	#login .box .user_info .overflow { height:135px; padding:20px; overflow:auto; }
+	#login .box + .mt50 { margin-top:50px; }
+
+	@media (min-width:769px) {
+
+	/* 天地左右中央 */
+	.center_view { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); }
+
+	}
+
+	@media (max-width:768px) {
+
+	#login .large,
+	#login .message_text .large { font-size:14px; }
+
+	img[ src*="logo.svg" ] { max-width:200px; margin:0 auto; }
+	#login h1 { margin-bottom:5px; }
+	#login .container.max_w400 { padding-left:30px; padding-right:30px; }
+	#login #body { padding-top:30px; padding-bottom:30px; }
+
+	}
+
+	/*OKmessage*/
+	.ok > p { font-size:16px; padding:5px 7.5px; border-radius: 5px; border: 1px solid #18a689; color: #18a689; }
+	.ok > p::before { content: "\f10c"; font-family:FontAwesome; margin-right:5px; }
+

@@ -1,0 +1,1 @@
+document.write('<script type="text/javascript" src="/admin/common/js/lightbox/lightbox.js"></script><script type="text/javascript" src="/admin/common/js/lightbox/config.js"></script><link rel="stylesheet" href="/admin/common/js/lightbox/css/lightbox.css" type="text/css" media="screen" />');
