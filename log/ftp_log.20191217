@@ -1,0 +1,12 @@
+Dec 17 21:16:55 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Dec 17 21:19:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Dec 17 21:19:18 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [NOTICE] File successfully renamed or moved: [phpMyAddmin]->[phpMyAdmin]
+Dec 17 21:20:05 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Dec 17 21:23:18 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Dec 17 21:23:29 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Dec 17 21:23:29 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/info.php uploaded  (95 bytes, 57.59KB/sec)
+Dec 17 21:23:30 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Dec 17 21:24:29 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] Logout.
+Dec 17 21:28:24 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Dec 17 21:29:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Dec 17 21:44:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@180.27.32.12) [INFO] Timeout - try typing a little faster next time
