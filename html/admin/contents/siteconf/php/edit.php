@@ -1,7 +1,7 @@
 <?php
 //-------------------------------------------------------------------
-// 作成日: 2016/11/01
-// 作成者: 鈴木
+// 作成日: 2019/12/28
+// 作成者: 岡田
 // 内  容: サイト設定 編集
 //-------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ unset( $mainObject );
 //  表示
 //----------------------------------------
 if( !empty($_POST[_CONTENTS_ID]) ) {
-	
+
 	// smarty設定
 	$smarty = new MySmarty("admin");
 	$smarty->compile_dir .= _CONTENTS_DIR. "/";
@@ -39,7 +39,7 @@ if( !empty($_POST[_CONTENTS_ID]) ) {
 	if( !empty($_ARR_IMAGE) ){
 		$smarty->assign( '_ARR_IMAGE', $_ARR_IMAGE );
 	}
-	
+
 	// 表示
 	$smarty->display( "edit.tpl" );
 

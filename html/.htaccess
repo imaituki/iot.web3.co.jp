@@ -1,7 +1,7 @@
 <Files ~ "^\.(htaccess|htpasswd)$">
 deny from all
 </Files>
-AuthUserFile /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html.htpasswd
+AuthUserFile /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/.htpasswd
 AuthGroupFile /dev/null
 AuthName "Please enter your ID and password"
 AuthType Basic
