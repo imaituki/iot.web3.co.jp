@@ -58,5 +58,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php } else { ?><?php echo (($tmp = @$_smarty_tpl->tpl_vars['_HTML_HEADER']->value['description'])===null||$tmp==='' ? '' : $tmp);?>
 <?php echo (($tmp = @$_smarty_tpl->tpl_vars['_HTML_HEADER_DEFAULT']->value['description'])===null||$tmp==='' ? '' : $tmp);?>
 <?php }?>">
-<meta name="apple-mobile-web-app-title" content=" 株式会社親幸産業" />
+<meta name="apple-mobile-web-app-title" content=" ウェブクリエイティブ株式会社" />
 <?php }} ?>

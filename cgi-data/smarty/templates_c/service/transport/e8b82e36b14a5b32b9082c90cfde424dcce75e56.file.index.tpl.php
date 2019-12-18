@@ -84,7 +84,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<section>
 		<div id="vehicles" class="wrapper-t center">
 			<h2 class="hl_1 mincho"><span class="cg">保有車両</span></h2>
-			<p class="mb30">株式会社親幸産業が所有する代表的な車両です。</p>
+			<p class="mb30">ウェブクリエイティブ株式会社が所有する代表的な車両です。</p>
 			<div class="row">
 				<div class="col-xs-6">
 					<div class="kind_unit height-1">

@@ -82,31 +82,31 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="col-xs-2-5">
 			<a href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
 /common/image/contents/top/image1.jpg" rel="lightbox" class="foot_photo _a height-1"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/image1.jpg" alt="株式会社親幸産業"></a>
+/common/image/contents/top/image1.jpg" alt="ウェブクリエイティブ株式会社"></a>
 		</div>
 		<div class="col-xs-3-5 height-1">
 			<div class="row no-gutters">
 				<div class="col-xs-8 col-8">
 					<a href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
 /common/image/contents/top/image2.jpg" rel="lightbox" class="foot_photo _b"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/image2.jpg" alt="株式会社親幸産業"></a>
+/common/image/contents/top/image2.jpg" alt="ウェブクリエイティブ株式会社"></a>
 				</div>
 				<div class="col-xs-4 col-4">
 					<a href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
 /common/image/contents/top/image3.jpg" rel="lightbox" class="foot_photo _c"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/image3.jpg" alt="株式会社親幸産業"></a>
+/common/image/contents/top/image3.jpg" alt="ウェブクリエイティブ株式会社"></a>
 				</div>
 			</div>
 			<div class="row no-gutters">
 				<div class="col-xs-4 col-4">
 					<a href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
 /common/image/contents/top/image4.jpg" rel="lightbox" class="foot_photo _d"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/image4.jpg" alt="株式会社親幸産業"></a>
+/common/image/contents/top/image4.jpg" alt="ウェブクリエイティブ株式会社"></a>
 				</div>
 				<div class="col-xs-8 col-8">
 					<a href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
 /common/image/contents/top/image5.jpg" rel="lightbox" class="foot_photo _e"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/image5.jpg" alt="株式会社親幸産業"></a>
+/common/image/contents/top/image5.jpg" alt="ウェブクリエイティブ株式会社"></a>
 				</div>
 			</div>
 		</div>
@@ -117,7 +117,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="col-sm-5">
 			<h5 class="site_logo"><a class="ov" href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
 /"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/foot/logo.png" alt="株式会社親幸産業"></a></h5>
+/common/image/foot/logo.png" alt="ウェブクリエイティブ株式会社"></a></h5>
 			<address>〒<?php echo $_smarty_tpl->tpl_vars['mst_siteconf']->value['zip'];?>
  <?php echo $_smarty_tpl->tpl_vars['mst_siteconf']->value['address'];?>
 <br>
@@ -175,7 +175,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 /privacy/">プライバシーポリシー</a>
 				</div>
 			</div>
-			<div class="col-sm-6 col-sm-pull-6">&copy; Copyright 2019 株式会社親幸産業 All rights Reserved.</div>
+			<div class="col-sm-6 col-sm-pull-6">&copy; Copyright 2019 ウェブクリエイティブ株式会社 All rights Reserved.</div>
 		</div>
 	</div>
 </div>

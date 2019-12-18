@@ -63,9 +63,9 @@ if (!is_callable('smarty_modifier_truncate')) include '/virtual/119.245.151.134/
 	<div id="main_image">
 		<div class="unit">
 			<div class="sp_none img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/slide1.jpg" alt="株式会社親幸産業"></div>
+/common/image/contents/top/slide1.jpg" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="pc_none img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/slide1-sp.jpg" alt="株式会社親幸産業"></div>
+/common/image/contents/top/slide1-sp.jpg" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="text">
 				<div class="center">
 					<div class="text_in"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
@@ -75,9 +75,9 @@ if (!is_callable('smarty_modifier_truncate')) include '/virtual/119.245.151.134/
 		</div>
 		<div class="unit">
 			<div class="sp_none img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/slide2.jpg" alt="株式会社親幸産業"></div>
+/common/image/contents/top/slide2.jpg" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="pc_none img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/slide2-sp.jpg" alt="株式会社親幸産業"></div>
+/common/image/contents/top/slide2-sp.jpg" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="text">
 				<div class="center">
 					<div class="text_in"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
@@ -87,9 +87,9 @@ if (!is_callable('smarty_modifier_truncate')) include '/virtual/119.245.151.134/
 		</div>
 		<div class="unit">
 			<div class="sp_none img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/slide1.jpg" alt="株式会社親幸産業"></div>
+/common/image/contents/top/slide1.jpg" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="pc_none img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/slide1-sp.jpg" alt="株式会社親幸産業"></div>
+/common/image/contents/top/slide1-sp.jpg" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="text">
 				<div class="center">
 					<div class="text_in"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
@@ -99,9 +99,9 @@ if (!is_callable('smarty_modifier_truncate')) include '/virtual/119.245.151.134/
 		</div>
 		<div class="unit">
 			<div class="sp_none img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/slide3.jpg" alt="株式会社親幸産業"></div>
+/common/image/contents/top/slide3.jpg" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="pc_none img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/top/slide3-sp.jpg" alt="株式会社親幸産業"></div>
+/common/image/contents/top/slide3-sp.jpg" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="text">
 				<div class="center">
 					<div class="text_in"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>

@@ -31,7 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<div class="center">
 		<h1 class="site_logo"><a class="ov" href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
 /"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/head/logo.png" alt="株式会社親幸産業"></a></h1>
+/common/image/head/logo.png" alt="ウェブクリエイティブ株式会社"></a></h1>
 		<div id="head_navi">
 			<ul>
 				<li class="navi_1"><a href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
