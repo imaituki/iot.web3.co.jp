@@ -18,12 +18,8 @@ $smarty = new MySmarty("admin");
 $smarty->compile_dir .= _CONTENTS_DIR. "/";
 
 // テンプレートに設定
-if( !empty($_ARR_IMAGE) ){
-	$smarty->assign( '_ARR_IMAGE', $_ARR_IMAGE );
-}
-if( !empty($_ARR_FILE) ){
-	$smarty->assign( '_ARR_FILE', $_ARR_FILE );
-}
+$smarty->assign( '_ARR_IMAGE'    , $_ARR_IMAGE            );
+
 
 // 表示
 $smarty->display( "new.tpl" );

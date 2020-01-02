@@ -93,8 +93,11 @@ if( empty( $message["ng"] ) ) {
 		$smarty->assign( '_ARR_IMAGE', $_ARR_IMAGE );
 	}
 	if( !empty($_ARR_FILE) ){
-		$smarty->assign( '_ARR_FILE', $_ARR_FILE   );
+		$smarty->assign( '_ARR_FILE', $_ARR_FILE );
 	}
+
+	// オプション設定
+	$smarty->assign( 'OptionCategory' , $OptionCategory  );
 
 	// 表示
 	$smarty->display( "edit.tpl" );

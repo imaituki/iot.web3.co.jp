@@ -1,7 +1,7 @@
 <?php
 //-------------------------------------------------------------------
 // 作成日: 2019/12/28
-// 作成者: 岡田
+// 作成者: 岡田a
 // 内  容: case 編集
 //-------------------------------------------------------------------
 
@@ -42,14 +42,6 @@ if( !empty($_POST[_CONTENTS_ID]) ) {
 	// smarty設定
 	$smarty = new MySmarty("admin");
 	$smarty->compile_dir .= _CONTENTS_DIR. "/";
-
-	// テンプレートに設定
-	if( !empty($_ARR_IMAGE) ){
-		$smarty->assign( '_ARR_IMAGE', $_ARR_IMAGE );
-	}
-	if( !empty($_ARR_FILE) ){
-		$smarty->assign( '_ARR_FILE', $_ARR_FILE );
-	}
 
 	// 表示
 	$smarty->display( "edit.tpl" );

@@ -32,6 +32,8 @@ $arr_post = ( isset($_SESSION["admin"][_CONTENTS_DIR]["search"]["POST"]) ) ? $_S
 $objManage  = new DB_manage( _DNS );
 $mainObject = new $class_name( $objManage );
 
+
+
 // データ取得
 $t_case_category = $mainObject->GetSearchList( $arr_post );
 
@@ -48,15 +50,9 @@ $smarty = new MySmarty("admin");
 $smarty->compile_dir .= _CONTENTS_DIR. "/";
 
 // テンプレートに設定
-$smarty->assign( "message"          , $message                   );
+$smarty->assign( "message"                 , $message                          );
 $smarty->assign( 't_case_category'  , $t_case_category["data"]   );
-$smarty->assign( 'page_navi'        , $t_case_category["page"]   );
-if( !empty($_ARR_IMAGE) ){
-	$smarty->assign( '_ARR_IMAGE', $_ARR_IMAGE );
-}
-if( !empty($_ARR_FILE) ){
-	$smarty->assign( '_ARR_FILE', $_ARR_FILE );
-}
+$smarty->assign( 'page_navi'               , $t_case_category["page"]   );
 
 // 表示
 $smarty->display("index.tpl");

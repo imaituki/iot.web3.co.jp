@@ -50,7 +50,7 @@ $smarty = new MySmarty("admin");
 $smarty->compile_dir .= _CONTENTS_DIR;
 
 // テンプレートに設定
-$smarty->assign( "page_navi"       , $t_case_category["page"] );
+$smarty->assign( "page_navi"              , $t_case_category["page"] );
 $smarty->assign( "t_case_category" , $t_case_category["data"] );
 if( !empty($_ARR_IMAGE) ){
 	$smarty->assign( '_ARR_IMAGE', $_ARR_IMAGE );
@@ -58,6 +58,10 @@ if( !empty($_ARR_IMAGE) ){
 if( !empty($_ARR_FILE) ){
 	$smarty->assign( '_ARR_FILE', $_ARR_FILE );
 }
+
+// オプション設定
+$smarty->assign( 'OptionCategory' , $OptionCategory  );
+
 
 // 表示
 $smarty->display("list.tpl");

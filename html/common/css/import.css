@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* bootstrap */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.11.2/css/all.css");
+@import url("bootstrap-3-grid.css");
+
+/* 基本 */
+@import url("base.css");
+
+/* ページレイアウト */
+@import url("layout.css?d=1");
+@import url("style.css?d=1");

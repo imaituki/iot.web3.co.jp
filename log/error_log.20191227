@@ -1,0 +1,4 @@
+[Fri Dec 27 15:36:12 2019] [error] [client 118.21.102.9] PHP Warning:  mkdir(): File exists in /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/info.php on line 2
+[Fri Dec 27 15:36:12 2019] [error] [client 118.21.102.9] File does not exist: /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/favicon.ico, referer: http://bb0b6dda-20c6-11ea-8a14-ad6f0c460029.mngsv.biz/info.php
+[Fri Dec 27 17:38:24 2019] [error] [client 118.21.102.9] PHP Warning:  mkdir(): File exists in /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/info.php on line 2
+[Fri Dec 27 17:38:25 2019] [error] [client 118.21.102.9] File does not exist: /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/favicon.ico, referer: http://bb0b6dda-20c6-11ea-8a14-ad6f0c460029.mngsv.biz/info.php

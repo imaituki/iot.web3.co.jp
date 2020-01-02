@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*
+	Last Update:2018/03/01
+	Auther: iw
+*/
+/*===================================================================
+	Base Format
+===================================================================*/
+/*IE用viewport*/
+@-ms-viewport { width:auto; initial-scale:1; }
+* { box-sizing:border-box; }
+html,body,p,h1,h2,h3,h4,h5,h6,table,th,td,ul,ol,li,dl,dt,dd,img,a { margin:0; padding:0; }
+html { background:#FFF; }
+body { font:15px/1.7 "Noto Sans JP", "Meiryo UI", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic , Avenir, "Open Sans", "Helvetica Neue", Arial, Verdana, Roboto, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; font-weight:normal; font-style:normal; color:#444; -webkit-text-size-adjust:100%; }
+@media screen and (max-width: 767px){
+	body { font-size:14px; }
+}
+
+/*OS游ゴシックweightズレ防止*/
+@font-face {
+font-family: "Yu Gothic";
+src: local("Yu Gothic Medium");
+font-weight: normal;
+}
+@font-face {
+font-family: "Yu Gothic";
+src: local("Yu Gothic Bold");
+font-weight: bold;
+}
+
+/* 各要素reset */
+*:foucs { outline: none; }
+table { border-collapse:collapse; }
+td,th { line-height:1.5; vertical-align:top; text-align:left; }
+strong { font-weight:bold; }
+img { border:none; vertical-align:bottom; max-width: 100%; }
+hr { display:none; }
+fieldset { border:none; }
+address { font-style:normal; }
+ul { list-style:none; }
+h1,h2,h3,h4,h5,h6,table,th,td,input,select,option,textarea,button { font-size:100%; font-weight:normal; }
+
+iframe { max-width:100%; }
+.youtube { position:relative; padding-top:56%; line-height:0; }
+.youtube iframe, .youtube video { position:absolute; top:0; left:0; width:100%; height:100%; }
+.gmap { line-height:0; }
+	@media screen and (max-width:767px){
+		iframe { max-height:100vw; }
+	}
+
+a, button, input[type="submit"], input[type="button"] { cursor:pointer; }
+a:link { text-decoration:underline; color:#106b6c; }
+a:visited { text-decoration:underline; color:#052264; }
+a:hover { text-decoration:none; }
+a:active { text-decoration:none; }
+body.pc .ov { transition: .2s; cursor:pointer; }
+body.pc .ov:hover { opacity:0.5; }
+
+/* form */
+input[type="text"], input[type="email"], input[type="tel"], textarea, select { font-size:1em; border:1px solid #ccc; border-radius:3px; margin:3px 0; }
+input[type="text"], input[type="email"], input[type="tel"], textarea { width:100%; padding:15px 10px; }
+select { padding:15px 8px; }
+input[type=checkbox], input[type=radio] { -webkit-transform: scale(1.1,1.1); margin-right:5px; }
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus { background:#fefefc; }
+	@media screen and (max-width:767px){
+		input[type="text"], input[type="email"], input[type="tel"], textarea, select { font-size:16px; }
+	}
+
+input.w40p { width:40%; }
+input.w50 { width:50px; }
+input.w150 { width:150px; }
+
+
+/*===================================================================
+	Common Class
+===================================================================*/
+.clearfix{ zoom:1;}
+.clearfix:after{ content:"."; display: block; height:0px; clear:both; line-height:0; visibility:hidden;}
+
+.pos_al { text-align:left;}
+.pos_ac { text-align:center;}
+.pos_ar { text-align:right;}
+.pos_vt { vertical-align:top;}
+.pos_vm { vertical-align:middle;}
+.pos_vb { vertical-align:bottom;}
+.pos_re { position: relative;}
+.pos_ab { position: absolute;}
+	@media screen and (min-width:768px){
+		.pos_ac-pc { text-align:center; }
+	}
+
+.xxxx-large { font-size:3.5em;}
+.xxx-large { font-size:2.7em;}
+.xx-large  { font-size:1.75em;}
+.x-large   { font-size:1.5em;}
+.large     { font-size:1.3em;}
+.s-large   { font-size: 1.15em;}
+.mid       { font-size:15px;}
+.small     { font-size:0.92em;}
+.x-small   { font-size:0.87em;}
+.xx-small  { font-size:0.6em; }
+.fw_bold { font-weight:bold !important; }
+.fw_nomal { font-weight:normal !important; }
+
+.c_red { color:#c00; }
+.c_blue { color:#00c; }
+.c_gray { color:#ccc; }
+
+.list_pager { margin-bottom:20px;}
+.list_pager ul { text-align:center;}
+.list_pager ul li { display:inline; }
+.list_pager ul li strong,
+.list_pager ul li a { display:inline-block; padding:8px 10px 9px; border:1px solid #CCC; color:#888; text-decoration:none; line-height:100%; }
+.list_pager ul li strong,
+.list_pager ul li a:hover { background:#0f7a45; color:#FFF; border:1px solid #0f7a45; }
+
+/* form */
+.error { display:block; margin:5px 0; padding:5px; background:#F8EAE8; color:#BC2F1C; font-weight:normal; }
+.need {  border: 1px solid #50A243; color: #50A243; padding: 0px 5px; border-radius: 5px; }
+
+/* admin */
+#alert_preview { z-index:100; padding:15px; color:#FFFFFF; background:#CC3129; text-align:center; }

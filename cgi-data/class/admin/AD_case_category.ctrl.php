@@ -144,7 +144,6 @@ class AD_case_category {
 
 		// 登録データの作成
 		$arrVal = $this->_DBconn->arrayKeyMatchFecth( $arrVal, "/^[^\_]/" );
-		$arrSql["display_num"] = "( SELECT IFNULL( max_num + 1, 1 ) FROM ( SELECT MAX( display_num ) AS max_num FROM " . $this->_CtrTable . " ) AS maxnm ) ";
 		$arrVal["entry_date"]  = date( "Y-m-d H:i:s" );
 		$arrVal["update_date"] = date( "Y-m-d H:i:s" );
 
@@ -258,33 +257,7 @@ class AD_case_category {
 		return $res;
 
 	}
-	//-------------------------------------------------------
-		// 関数名：sort
-		// 引  数：$sortIds - ソート順 ID
-		//       ：$sortKey - 並び替えのフィールド名
-		// 戻り値：true - 正常, false - 異常
-		// 内  容：並び替え
-		//-------------------------------------------------------
-		function sort( $sortIds, $sortKey ) {
 
-			// 初期化
-			$res = false;
-
-			// データチェック
-			if( !empty( $sortIds ) ) {
-
-				// 変数セット
-				$this->_DBconn->_ADODB->query("set @a = 0;");
-
-				// ソート
-				$res = $this->_DBconn->update( $this->_CtrTable, null, array( "display_num" => "( @a := @a + 1 )" ), $this->_CtrTablePk . " IN( " . $sortIds . " ) ORDER BY FIELD( " . $sortKey . ", " . $sortIds . " ) " );
-
-			}
-
-			// 戻り値
-			return $res;
-
-		}
 
 	//-------------------------------------------------------
 	// 関数名：GetSearchList

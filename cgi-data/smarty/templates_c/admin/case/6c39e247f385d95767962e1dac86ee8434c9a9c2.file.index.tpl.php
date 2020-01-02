@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2019-10-08 21:31:26
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-02 22:16:38
          compiled from "../template/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13315988485d9c0d7937f0e2-66989956%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6c39e247f385d95767962e1dac86ee8434c9a9c2' => 
     array (
       0 => '../template/index.tpl',
-      1 => 1570516279,
+      1 => 1576635762,
       2 => 'file',
     ),
   ),
@@ -47,7 +47,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 /common/js/plugins/datapicker/bootstrap-datepicker-import.js"></script>
 		<script src="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
 /common/js/list.js"></script>
-		<script src="./../js/script.js"></script>
 	</head>
 	<body class="fixed-sidebar no-skin-config">
 		<div id="wrapper">
