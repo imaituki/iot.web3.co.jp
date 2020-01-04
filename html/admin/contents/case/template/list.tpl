@@ -34,7 +34,7 @@
 				{/if}
 			</td>
 			<td>
-				{$OptionCaseCategory[$case.case_category]}
+				{$OptionCaseCategory[$case.id_case_category]}
 			</td>
 			<td><a href="./edit.php?id={$case.$_CONTENTS_ID}">{$case.title}</a></td>
 			<td class="pos_al">

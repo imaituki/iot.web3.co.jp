@@ -31,14 +31,6 @@ unset( $mainObject );
 //----------------------------------------
 if( !empty($_POST[_CONTENTS_ID]) ) {
 
-	// データ加工
-	if( !empty($_POST["display_start"]) ){
-		$_POST["display_start"] = date( "Y/m/d", strtotime($_POST["display_start"]) );
-	}
-	if( !empty($_POST["display_end"]) ){
-		$_POST["display_end"] = date( "Y/m/d", strtotime($_POST["display_end"]) );
-	}
-
 	// smarty設定
 	$smarty = new MySmarty("admin");
 	$smarty->compile_dir .= _CONTENTS_DIR. "/";

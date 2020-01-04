@@ -17,9 +17,9 @@
 					{if $message.ng.case_category|default:"" != NULL}<p class="error">{$message.ng.case_category}</p>{/if}
 
 					<div class="radio m-r-xs inline">
-						<select class="form-control" name="case_category" id="case_category">
+						<select class="form-control" name="id_case_category" id="id_case_category">
 							<option value="0">選択してください</option>
-							{html_options options=$OptionCaseCategory selected=$arr_post.case_category}
+							{html_options options=$OptionCaseCategory selected=$arr_post.id_case_category}
 						</select>
 					</div>
 				</div>

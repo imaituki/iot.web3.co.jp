@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2019-10-07 10:38:25
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-03 01:23:01
          compiled from "../template/new.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:8753738485c78e583b3ece1-51783373%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '238c380072b5c29c5fa3993b7a21d862193e5e28' => 
     array (
       0 => '../template/new.tpl',
-      1 => 1570412295,
+      1 => 1576635763,
       2 => 'file',
     ),
   ),
@@ -22,6 +22,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '_ADMIN' => 0,
     'template_javascript' => 0,
     'template_secondary' => 0,
+    '_CONTENTS_DIR' => 0,
     'template_header' => 0,
     '_CONTENTS_NAME' => 0,
   ),
@@ -50,7 +51,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	</head>
 	<body class="fixed-sidebar no-skin-config">
 	<div id="wrapper">
-		<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_secondary']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('action'=>'information','manage'=>"information_new"), 0);?>
+		<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_secondary']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('action'=>'information','manage'=>$_smarty_tpl->tpl_vars['_CONTENTS_DIR']->value), 0);?>
 
 		<div id="page-wrapper" class="gray-bg">
 			<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_header']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>

@@ -38,7 +38,7 @@ class AD_case_category {
 	// 戻り値：なし
 	// 内  容：コンストラクタ
 	//-------------------------------------------------------
-	function __construct( $dbconn, $arrImg = NULL  ) {
+	function __construct( $dbconn ) {
 
 		// クラス宣言
 		if( !empty( $dbconn ) ) {
@@ -46,10 +46,6 @@ class AD_case_category {
 		} else {
 			$this->_DBconn  = new DB_manage( _DNS );
 		}
-		$this->_FN_file = new FN_file();
-
-		// 設定情報
-		$this->_ARR_IMAGE = $arrImg;
 
 	}
 
@@ -63,18 +59,6 @@ class AD_case_category {
 	function __destruct() {
 
 	}
-
-
-	//-------------------------------------------------------
-	// 関数名：setImageConfig
-	// 引  数：$conf - 画像設定
-	// 戻り値：なし
-	// 内  容：画像設定の設定を行う。
-	//-------------------------------------------------------
-	function setImageConfig( $conf ) {
-		$this->_ARR_IMAGE = $conf;
-	}
-
 
 	//-------------------------------------------------------
 	// 関数名：convert
@@ -139,9 +123,6 @@ class AD_case_category {
 	//-------------------------------------------------------
 	function insert( $arrVal, $arrSql = null ) {
 
-		// アップ処理
-		$ImageInfo = $this->_FN_file->copyImage( $_FILES, $this->_ARR_IMAGE, $arrVal );
-
 		// 登録データの作成
 		$arrVal = $this->_DBconn->arrayKeyMatchFecth( $arrVal, "/^[^\_]/" );
 		$arrVal["entry_date"]  = date( "Y-m-d H:i:s" );
@@ -167,12 +148,6 @@ class AD_case_category {
 	// 内  容：実績紹介カテゴリマスタデータ更新
 	//-------------------------------------------------------
 	function update( $arrVal, $arrSql = null ) {
-
-		// 写真削除
-		$this->_FN_file->delImage( $this->_ARR_IMAGE, $arrVal["_delete_image"], $arrVal );
-
-		// アップ処理
-		$ImageInfo = $this->_FN_file->copyImage( $_FILES, $this->_ARR_IMAGE, $arrVal );
 
 		// 登録データの作成
 		$arrVal = $this->_DBconn->arrayKeyMatchFecth( $arrVal, "/^[^\_]/" );
@@ -204,27 +179,8 @@ class AD_case_category {
 		// 初期化
 		$res = false;
 
-		// ファイル設定ループ
-		if( !empty($this->_ARR_IMAGE) && is_array($this->_ARR_IMAGE) ){
-			foreach( $this->_ARR_IMAGE as $key => $val ) {
-				$select[] = $val["name"];
-			}
-
-			// SQL配列
-			$creation_kit  = array( "select" => implode( ",", $select ),
-									"from"   => $this->_CtrTable,
-									"where"  => $this->_CtrTablePk . " = " . $id );
-
-			// データ取得
-			$tmp = $this->_DBconn->selectCtrl( $creation_kit, array( "fetch" => _DB_FETCH ) );
-
-			// 画像削除
-			$this->_FN_file->delImage( $this->_ARR_IMAGE, $tmp );
-
-		}
-
 		// 更新
-		$res = $this->_DBconn->delete( $this->_CtrTable, $this->_CtrTablePk . " = " . $id );
+		$res = $this->_DBconn->update( $this->_CtrTable, array( "delete_flg" => 1 ), null, $this->_CtrTablePk . " = " . $id );
 
 		// キャッシュクリア
 		$this->_DBconn->freshCacheAll( $this->_CacheDir );
@@ -271,8 +227,8 @@ class AD_case_category {
 		// SQL配列
 		$creation_kit = array(  "select" => "*",
 								"from"   => $this->_CtrTable,
-								"where"  => "1 ",
-								"order"  => "display_num ASC"
+								"where"  => "delete_flg = 0 ",
+								"order"  => $this->_CtrTablePk . " asc"
 							);
 
 		// 検索条件

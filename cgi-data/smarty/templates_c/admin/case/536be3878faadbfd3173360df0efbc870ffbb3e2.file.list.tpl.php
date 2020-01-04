@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2019-10-08 21:34:50
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-03 02:06:42
          compiled from "../template/list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:7149574185d9c176dc9e495-03290483%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '536be3878faadbfd3173360df0efbc870ffbb3e2' => 
     array (
       0 => '../template/list.tpl',
-      1 => 1570538079,
+      1 => 1576635762,
       2 => 'file',
     ),
   ),
@@ -19,10 +19,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_5d9c176dd48ae5_39510980',
   'variables' => 
   array (
-    'template_pagenavi' => 0,
     't_case' => 0,
     'case' => 0,
-    'arr_post' => 0,
     'OptionCaseCategory' => 0,
     '_CONTENTS_ID' => 0,
     '_ARR_IMAGE' => 0,
@@ -30,21 +28,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '_IMAGEFULLPATH' => 0,
     '_CONTENTS_DIR' => 0,
     '_CONTENTS_NAME' => 0,
+    'template_pagenavi' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5d9c176dd48ae5_39510980')) {function content_5d9c176dd48ae5_39510980($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/home/jwcc/8063/data/smarty/libs/plugins/modifier.date_format.php';
-?>
-<script type="text/javascript">
-sortableInit();
-</script>
-
-<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_pagenavi']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-
-<table class="footable table table-stripped toggle-arrow-tiny tbl_1" data-page-size="15" id="sortable-table">
+<?php if ($_valid && !is_callable('content_5d9c176dd48ae5_39510980')) {function content_5d9c176dd48ae5_39510980($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/cgi-data/smarty/libs/plugins/modifier.date_format.php';
+?><table class="footable table table-stripped toggle-arrow-tiny tbl_1" data-page-size="15" id="sortable-table">
 	<thead>
 		<tr>
-			<th></th>
 			<th>日付</th>
 			<th>掲載期間</th>
 			<th>カテゴリ</th>
@@ -56,12 +47,11 @@ sortableInit();
 	</thead>
 	<tfoot>
 		<tr>
-			<th></th>
 			<th width="100">日付</th>
 			<th width="100">掲載期間</th>
 			<th>カテゴリ</th>
 			<th>タイトル</th>
-			<th class="photo" width="220">写真</th>
+			<th class="photo" width="100">写真</th>
 			<th class="showhide" width="60">表示</th>
 			<th class="delete" width="60">削除</th>
 		</tr>
@@ -72,9 +62,7 @@ sortableInit();
 foreach ($_from as $_smarty_tpl->tpl_vars['case']->key => $_smarty_tpl->tpl_vars['case']->value) {
 $_smarty_tpl->tpl_vars['case']->_loop = true;
 ?>
-		<tr id="<?php echo $_smarty_tpl->tpl_vars['case']->value['id_case'];?>
-">
-		<td class="move_i"><?php if ((($tmp = @$_smarty_tpl->tpl_vars['arr_post']->value['mode'])===null||$tmp==='' ? '' : $tmp)=="search") {?><?php } else { ?><i class="fa fa-sort"><span></span></i><?php }?></td>
+		<tr>
 			<td><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['case']->value['date'],"%Y/%m/%d");?>
 </td>
 			<td>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2019-10-09 09:21:27
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-02 22:56:51
          compiled from "../template/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16102595955d9c0ce52bf919-89964879%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6c39e247f385d95767962e1dac86ee8434c9a9c2' => 
     array (
       0 => '../template/index.tpl',
-      1 => 1570516279,
+      1 => 1577973397,
       2 => 'file',
     ),
   ),
@@ -49,7 +49,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </head>
 <body class="fixed-sidebar no-skin-config">
 <div id="wrapper">
-	<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_secondary']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('action'=>"case_category",'manage'=>((string)$_smarty_tpl->tpl_vars['_CONTENTS_DIR']->value)), 0);?>
+	<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_secondary']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('action'=>"case",'manage'=>((string)$_smarty_tpl->tpl_vars['_CONTENTS_DIR']->value)), 0);?>
 
 	<div id="page-wrapper" class="gray-bg">
 		<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_header']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>

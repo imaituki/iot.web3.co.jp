@@ -125,7 +125,7 @@ class AD_case {
 
 		// チェックエントリー
 		$objInputCheck->entryData( "日付", "date" , $arrVal["date"] , array( "CHECK_EMPTY", "CHECK_DATE" ), null, null );
-		$objInputCheck->entryData( "カテゴリー", "case_category", $arrVal["case_category"][0], array( "CHECK_EMPTY_ZERO", "CHECK_MIN_MAX_LEN" ), 0, 255 );
+		$objInputCheck->entryData( "カテゴリー", "id_case_category", $arrVal["id_case_category"], array( "CHECK_EMPTY_ZERO", "CHECK_MIN_MAX_LEN" ), 0, 255 );
 		$objInputCheck->entryData( "タイトル", "title", $arrVal["title"], array( "CHECK_EMPTY", "CHECK_MIN_MAX_LEN" ), 0, 255 );
 		if( $arrVal["display_indefinite"] == 0 ) {
 			$objInputCheck->entryData( "掲載開始", "display_start", $arrVal["display_start"], array( "CHECK_DATE" ), null, null );
@@ -195,11 +195,11 @@ class AD_case {
 
 		// 登録データの作成
 		$arrVal = $this->_DBconn->arrayKeyMatchFecth( $arrVal, "/^[^\_]/" );
-		$arrSql["display_num"] = "( SELECT IFNULL( max_num + 1, 1 ) FROM ( SELECT MAX( display_num ) AS max_num FROM " . $this->_CtrTable . " ) AS maxnm ) ";
+	//	$arrSql["display_num"] = "( SELECT IFNULL( max_num + 1, 1 ) FROM ( SELECT MAX( display_num ) AS max_num FROM " . $this->_CtrTable . " ) AS maxnm ) ";
 		$arrVal["entry_date"]  = date( "Y-m-d H:i:s" );
 		$arrVal["update_date"] = date( "Y-m-d H:i:s" );
-		if( !empty( $arrVal["case_category"] ) && is_array( $arrVal["case_category"] ) ){
-			$arrVal["case_category"] = implode( ",", $arrVal["case_category"] );
+		if( !empty( $arrVal["id_case_category"] ) && is_array( $arrVal["id_case_category"] ) ){
+			$arrVal["id_case_category"] = implode( ",", $arrVal["id_case_category"] );
 		}
 
 		// 登録
@@ -234,8 +234,8 @@ class AD_case {
 		// 登録データの作成
 		$arrVal = $this->_DBconn->arrayKeyMatchFecth( $arrVal, "/^[^\_]/" );
 		$arrVal["update_date"] = date( "Y-m-d H:i:s" );
-		if( !empty( $arrVal["case_category"] ) && is_array( $arrVal["case_category"] ) ){
-			$arrVal["case_category"] = implode( ",", $arrVal["case_category"] );
+		if( !empty( $arrVal["id_case_category"] ) && is_array( $arrVal["id_case_category"] ) ){
+			$arrVal["id_case_category"] = implode( ",", $arrVal["id_case_category"] );
 		}
 
 		// 更新条件
@@ -386,7 +386,7 @@ class AD_case {
 		}
 
 		if( !empty($search["search_category"]) ){
-			$creation_kit["where"] .= " AND case_category = ". $search["search_category"]. " ";
+			$creation_kit["where"] .= " AND id_case_category = ". $search["search_category"]. " ";
 		}
 		// 取得条件
 		if( empty( $option ) ) {
@@ -437,8 +437,8 @@ class AD_case {
 
 		// データ取得
 		$res = $this->_DBconn->selectCtrl( $creation_kit, array( "fetch" => _DB_FETCH ) );
-		if( !empty( $res["case_category"] ) ){
-					$res["case_category"] = explode( ",", $res["case_category"] );
+		if( !empty( $res["id_case_category"] ) ){
+					$res["id_case_category"] = explode( ",", $res["id_case_category"] );
 				}
 
 		// 戻り値
@@ -456,8 +456,8 @@ class AD_case {
 	function GetOption() {
 
 		// SQL配列
-		$creation_kit = array(  "select" => "case_category, title",
-								"from"   => "t_case_category",
+		$creation_kit = array(  "select" => "id_case_category, title",
+								"from"   => "t_id_case_category",
 								"where"  => "delete_flg = 0 AND display_flg = 1",
 								"order"  => "display_num ASC"
 							);
@@ -467,7 +467,7 @@ class AD_case {
 		// オプション用に成形
 		if( !empty($arr_option) ){
 			foreach( $arr_option as $val ){
-				$res[$val["case_category"]] = $val["title"];
+				$res[$val["id_case_category"]] = $val["title"];
 			}
 		}
 

@@ -99,17 +99,16 @@ class MySmarty extends Smarty {
 		$this->assign( "OptionInfoCategory" , $OptionInfoCategory );
 
 		// 変数
-		$this->assign( "_RENEWAL_DIR"        , _RENEWAL_DIR        );
 		$this->assign( "mst_siteconf"        , $mst_siteconf       );
 
 
 
 		// 変数 - インクルードパス
-		$this->assign( "template_meta"       , _DOCUMENT_ROOT. _RENEWAL_DIR . $_FRONT["include"]. "/meta.tpl"       );
-		$this->assign( "template_header"     , _DOCUMENT_ROOT. _RENEWAL_DIR . $_FRONT["include"]. "/header.tpl"     );
-		$this->assign( "template_footer"     , _DOCUMENT_ROOT. _RENEWAL_DIR . $_FRONT["include"]. "/footer.tpl"     );
-		$this->assign( "template_secondary"  , _DOCUMENT_ROOT. _RENEWAL_DIR . $_FRONT["include"]. "/secondary.tpl"  );
-		$this->assign( "template_javascript" , _DOCUMENT_ROOT. _RENEWAL_DIR . $_FRONT["include"]. "/javascript.tpl" );
+		$this->assign( "template_meta"       , _DOCUMENT_ROOT. $_FRONT["include"]. "/meta.tpl"       );
+		$this->assign( "template_header"     , _DOCUMENT_ROOT. $_FRONT["include"]. "/header.tpl"     );
+		$this->assign( "template_footer"     , _DOCUMENT_ROOT. $_FRONT["include"]. "/footer.tpl"     );
+		$this->assign( "template_secondary"  , _DOCUMENT_ROOT. $_FRONT["include"]. "/secondary.tpl"  );
+		$this->assign( "template_javascript" , _DOCUMENT_ROOT. $_FRONT["include"]. "/javascript.tpl" );
 
 	}
 

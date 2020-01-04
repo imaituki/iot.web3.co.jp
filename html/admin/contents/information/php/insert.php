@@ -30,7 +30,6 @@ $arr_post = $mainObject->convert( $arr_post );
 // データチェック
 $message = $mainObject->check( $arr_post, 'insert' );
 
-
 // エラーチェック
 if( empty( $message["ng"] ) ) {
 

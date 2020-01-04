@@ -35,7 +35,7 @@
 				{/if}
 			</td>
 			<td>
-				{$OptionInformationCategory[$information.information_category]}
+				{$OptionInformationCategory[$information.id_information_category]}
 			</td>
 			<td><a href="./edit.php?id={$information.$_CONTENTS_ID}">{$information.title}</a></td>
 			<td class="pos_al">

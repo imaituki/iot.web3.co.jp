@@ -14,12 +14,12 @@
 			<div class="form-group required">
 				<label class="col-sm-2 control-label">カテゴリ</label>
 				<div class="col-sm-6">
-					{if $message.ng.information_category|default:"" != NULL}<p class="error">{$message.ng.information_category}</p>{/if}
+					{if $message.ng.id_information_category|default:"" != NULL}<p class="error">{$message.ng.id_information_category}</p>{/if}
 
 					<div class="radio m-r-xs inline">
-						<select class="form-control" name="information_category" id="information_category">
+						<select class="form-control" name="id_information_category" id="id_information_category">
 							<option value="0">選択してください</option>
-							{html_options options=$OptionInformationCategory selected=$arr_post.information_category}
+							{html_options options=$OptionInformationCategory selected=$arr_post.id_information_category}
 						</select>
 					</div>
 				</div>

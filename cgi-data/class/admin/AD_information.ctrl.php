@@ -125,7 +125,7 @@ class AD_information {
 
 		// チェックエントリー
 		$objInputCheck->entryData( "日付", "date" , $arrVal["date"] , array( "CHECK_EMPTY", "CHECK_DATE" ), null, null );
-		$objInputCheck->entryData( "カテゴリー", "information_category", $arrVal["information_category"][0], array( "CHECK_EMPTY_ZERO", "CHECK_MIN_MAX_LEN" ), 0, 255 );
+		$objInputCheck->entryData( "カテゴリー", "id_information_category", $arrVal["id_information_category"], array( "CHECK_EMPTY_ZERO", "CHECK_MIN_MAX_LEN" ), 0, 255 );
 		$objInputCheck->entryData( "タイトル", "title", $arrVal["title"], array( "CHECK_EMPTY", "CHECK_MIN_MAX_LEN" ), 0, 255 );
 		if( $arrVal["display_indefinite"] == 0 ) {
 			$objInputCheck->entryData( "掲載開始", "display_start", $arrVal["display_start"], array( "CHECK_DATE" ), null, null );
@@ -197,8 +197,8 @@ class AD_information {
 		$arrVal = $this->_DBconn->arrayKeyMatchFecth( $arrVal, "/^[^\_]/" );
 		$arrVal["entry_date"]  = date( "Y-m-d H:i:s" );
 		$arrVal["update_date"] = date( "Y-m-d H:i:s" );
-		if( !empty( $arrVal["information_category"] ) && is_array( $arrVal["information_category"] ) ){
-			$arrVal["information_category"] = implode( ",", $arrVal["information_category"] );
+		if( !empty( $arrVal["id_information_category"] ) && is_array( $arrVal["id_information_category"] ) ){
+			$arrVal["id_information_category"] = implode( ",", $arrVal["id_information_category"] );
 		}
 
 		// 登録
@@ -233,8 +233,8 @@ class AD_information {
 		// 登録データの作成
 		$arrVal = $this->_DBconn->arrayKeyMatchFecth( $arrVal, "/^[^\_]/" );
 		$arrVal["update_date"] = date( "Y-m-d H:i:s" );
-		if( !empty( $arrVal["information_category"] ) && is_array( $arrVal["information_category"] ) ){
-			$arrVal["information_category"] = implode( ",", $arrVal["information_category"] );
+		if( !empty( $arrVal["id_information_category"] ) && is_array( $arrVal["id_information_category"] ) ){
+			$arrVal["id_information_category"] = implode( ",", $arrVal["id_information_category"] );
 		}
 
 		// 更新条件
@@ -404,8 +404,8 @@ class AD_information {
 
 		// データ取得
 		$res = $this->_DBconn->selectCtrl( $creation_kit, array( "fetch" => _DB_FETCH ) );
-		if( !empty( $res["information_category"] ) ){
-					$res["information_category"] = explode( ",", $res["information_category"] );
+		if( !empty( $res["id_information_category"] ) ){
+					$res["id_information_category"] = explode( ",", $res["id_information_category"] );
 				}
 
 		// 戻り値

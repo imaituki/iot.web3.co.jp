@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-02 22:16:38
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-03 02:11:11
          compiled from "/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/admin/contents/case/template/list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3718934825e0ded36482a83-01090190%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cbe3f7421d54e970171b8aa1aea091e8d16c1570' => 
     array (
       0 => '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/admin/contents/case/template/list.tpl',
-      1 => 1576635762,
+      1 => 1577984968,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5e0ded365614e9_25435425',
   'variables' => 
   array (
     't_case' => 0,
@@ -29,8 +31,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'template_pagenavi' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5e0ded365614e9_25435425',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5e0ded365614e9_25435425')) {function content_5e0ded365614e9_25435425($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/cgi-data/smarty/libs/plugins/modifier.date_format.php';
 ?><table class="footable table table-stripped toggle-arrow-tiny tbl_1" data-page-size="15" id="sortable-table">
@@ -76,7 +76,7 @@ $_smarty_tpl->tpl_vars['case']->_loop = true;
 				<?php }?>
 			</td>
 			<td>
-				<?php echo $_smarty_tpl->tpl_vars['OptionCaseCategory']->value[$_smarty_tpl->tpl_vars['case']->value['case_category']];?>
+				<?php echo $_smarty_tpl->tpl_vars['OptionCaseCategory']->value[$_smarty_tpl->tpl_vars['case']->value['id_case_category']];?>
 
 			</td>
 			<td><a href="./edit.php?id=<?php echo $_smarty_tpl->tpl_vars['case']->value[$_smarty_tpl->tpl_vars['_CONTENTS_ID']->value];?>

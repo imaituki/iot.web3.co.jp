@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2019-10-07 09:42:06
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-03 01:21:56
          compiled from "../template/list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2276672265d9a89de092ef7-17331523%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '536be3878faadbfd3173360df0efbc870ffbb3e2' => 
     array (
       0 => '../template/list.tpl',
-      1 => 1570408907,
+      1 => 1576635764,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5d9a89de0d2243_76652347',
   'variables' => 
   array (
     'template_pagenavi' => 0,
@@ -23,15 +25,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '_CONTENTS_NAME' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5d9a89de0d2243_76652347',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5d9a89de0d2243_76652347')) {function content_5d9a89de0d2243_76652347($_smarty_tpl) {?>			<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_pagenavi']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 			<table class="footable table table-stripped toggle-arrow-tiny tbl_1" data-page-size="15">
 				<thead>
 					<tr>
-						<th>商品カテゴリ名</th>
+						<th>お知らせカテゴリ名</th>
 						<th class="showhide">表示</th>
 						<th class="delete">削除</th>
 					</tr>

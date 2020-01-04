@@ -16,7 +16,7 @@ require "./config.ini";
 //----------------------------------------
 // 操作クラス
 $objManage  = new DB_manage( _DNS );
-$mainObject = new $class_name( $objManage, $_ARR_IMAGE, $_ARR_FILE );
+$mainObject = new $class_name( $objManage );
 
 // トランザクション
 $mainObject->_DBconn->StartTrans();

@@ -16,22 +16,17 @@ require "./config.ini";
 // 操作クラス
 $objManage      = new DB_manage( _DNS );
 $objInformation = new FT_information( $objManage );
-$objBlog = new FT_blog( $objManage );
 $objCase = new FT_case( $objManage );
 
 // お知らせ
 $t_information  = $objInformation->GetSearchList( null, array("fetch" => _DB_FETCH_ALL), 3 );
-
-// ブログ
-$t_blog  = $objBlog->GetSearchList( null, array("fetch" => _DB_FETCH_ALL), 3 );
-
-// 事例
-$t_case = $objCase->GetSearchList( null, array("fetch" => _DB_FETCH_ALL), 3 );
+// 実績紹介
+$t_case  = $objCase->GetSearchList( null, array("fetch" => _DB_FETCH_ALL), 3 );
+disp_arr($t_case );
 
 // クラス削除
 unset( $objInformation   );
-unset( $objBlog   );
-unset( $objCase );
+unset( $objCase          );
 unset( $objManage        );
 
 
@@ -56,12 +51,10 @@ $smarty->compile_dir .= "/";
 
 // テンプレートに設定
 $smarty->assign( "t_information" , $t_information );
-$smarty->assign( "t_blog"        , $t_blog        );
 $smarty->assign( "t_case"        , $t_case        );
 
 // オプション設定
 $smarty->assign( "OptionInformationCategory", $OptionInformationCategory );
-$smarty->assign( "OptionBlogCategory"       , $OptionBlogCategory        );
 $smarty->assign( "OptionCaseCategory"       , $OptionCaseCategory        );
 
 // 表示

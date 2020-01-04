@@ -16,7 +16,7 @@ require "./config.ini";
 //----------------------------------------
 // 操作クラス
 $objManage  = new DB_manage( _DNS );
-$mainObject = new $class_name( $objManage, $_ARR_IMAGE, $_ARR_FILE );
+$mainObject = new $class_name( $objManage );
 
 // データ変換
 $arr_post = $mainObject->convert( $arr_post );
@@ -62,25 +62,6 @@ if( empty( $message["ng"] ) ) {
 
 } else {
 
-	// データ加工
-	if( !empty($arr_post["display_start"]) ){
-		$arr_post["display_start"] = date( "Y/m/d", strtotime($arr_post["display_start"]) );
-	}
-	if( !empty($arr_post["display_end"]) ){
-		$arr_post["display_end"] = date( "Y/m/d", strtotime($arr_post["display_end"]) );
-	}
-
-	// 写真
-	if( !empty($_ARR_IMAGE) && is_array($_ARR_IMAGE) ){
-		foreach( $_ARR_IMAGE as $key => $val ) {
-			$arr_post[$val["name"]] = $arr_post["_" . $val["name"]."_now"];
-		}
-	}
-	if( !empty($_ARR_FILE) && is_array($_ARR_FILE) ){
-		foreach( $_ARR_FILE as $key => $val ) {
-			$arr_post[$val["name"]] = $arr_post["_" . $val["name"]."_now"];
-		}
-	}
 
 	// smarty設定
 	$smarty = new MySmarty("admin");
@@ -89,15 +70,6 @@ if( empty( $message["ng"] ) ) {
 	// テンプレートに設定
 	$smarty->assign( "message" , $message  );
 	$smarty->assign( "arr_post", $arr_post );
-	if( !empty($_ARR_IMAGE) ){
-		$smarty->assign( '_ARR_IMAGE', $_ARR_IMAGE );
-	}
-	if( !empty($_ARR_FILE) ){
-		$smarty->assign( '_ARR_FILE', $_ARR_FILE );
-	}
-
-	// オプション設定
-	$smarty->assign( 'OptionCategory' , $OptionCategory  );
 
 	// 表示
 	$smarty->display( "edit.tpl" );

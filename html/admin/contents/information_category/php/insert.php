@@ -22,7 +22,7 @@ $message = NULL;
 //----------------------------------------
 // 操作クラス
 $objManage  = new DB_manage( _DNS );
-$mainObject = new $class_name( $objManage, $_ARR_IMAGE, $_ARR_FILE );
+$mainObject = new $class_name( $objManage );
 
 // データ変換
 $arr_post = $mainObject->convert( $arr_post );

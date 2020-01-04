@@ -1,23 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>管理画面</title>
-<link href="{$_ADMIN.home}/common/css/bootstrap.min.css" rel="stylesheet">
-<link href="{$_ADMIN.home}/common/font-awesome/css/font-awesome.css" rel="stylesheet">
-<link href="{$_ADMIN.home}/common/css/animate.css" rel="stylesheet">
-<link href="{$_ADMIN.home}/common/css/plugins/codemirror/codemirror.css" rel="stylesheet">
-<link href="{$_ADMIN.home}/common/css/plugins/codemirror/ambiance.css" rel="stylesheet">
-<link href="{$_ADMIN.home}/common/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
-<link href="{$_ADMIN.home}/common/css/style.css" rel="stylesheet">
-<!-- FooTable -->
-<link href="{$_ADMIN.home}/common/css/plugins/footable/footable.core.css" rel="stylesheet">
-{include file=$template_javascript}
-<script type="text/javascript" src="{$_ADMIN.home}/common/js/input.js"></script>
-<script src="{$_ADMIN.home}/common/js/plugins/jquery-ui/jquery-ui.min.js"></script>
-<script src="{$_ADMIN.home}/common/js/plugins/datapicker/bootstrap-datepicker-import.js"></script>
-<script type="text/javascript" src="{$_ADMIN.home}/common/js/ckeditor/ckeditor.js"></script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>管理画面</title>
+	<link href="{$_ADMIN.home}/common/css/import.css" rel="stylesheet" />
+	<link href="{$_ADMIN.home}/common/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
+	{include file=$template_javascript}
+	<script type="text/javascript" src="{$_ADMIN.home}/common/js/input.js"></script>
 </head>
 <body class="fixed-sidebar no-skin-config">
 <div id="wrapper">

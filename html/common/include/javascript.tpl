@@ -1,5 +1,5 @@
-<script type="text/javascript" src="{$_RENEWAL_DIR}/common/js/jquery.js"></script>
-<script type="text/javascript" src="{$_RENEWAL_DIR}/common/js/script.js"></script>
+<script type="text/javascript" src="/common/js/jquery.js"></script>
+<script type="text/javascript" src="/common/js/script.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45329705-11"></script>
 <script>{literal}
