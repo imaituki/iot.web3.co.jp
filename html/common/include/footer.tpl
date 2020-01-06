@@ -1,43 +1,27 @@
 <footer>
 <div id="foot_contact" class="wrapper">
 	<div class="center">
-		<h3 class="hl_2 c0"><span class="main mincho">お問い合わせ</span><span class="sub">ご相談・ご質問等ございましたら、お気軽にお問い合わせください。</span></h3>
-		<div class="row">
+		<h3 class="hl_2 c0"><span class="main mincho">Contact</span><span class="sub">お問い合わせ・ご相談</span></h3>
+		<p class="c0 mb20 pos_ac">IoTに関するご質問や、導入・業務提携に関するご相談等ございましたら、お気軽にお問い合わせください。</p>
+		<div class="row radius_box">
 			<div class="col-sm-6">
-				<div class="radius_box height-1">
-					<h4 class="hl_4 mincho bg_or c0">配車受付のご案内</h4>
+				<div class="height-1">
+					<h4 class="hl_4 mincho bg_or c0">お電話でのお問い合わせ</h4>
 					<div class="tel_unit">
-						<h5 class="mincho">年中無休　運行は365日24時間</h5>
 						<div class="tel_wrap">
-							<span class="tel mincho" data-tel="{$mst_siteconf.tel2}"><i class="fa fa-phone-alt"></i> {$mst_siteconf.tel2}</span>
-							<span class="times">オーダー受付時間　{$mst_siteconf.worktime}</span>
+							<span class="tel mincho" data-tel="{$mst_siteconf.tel}"><i class="fa fa-phone-alt"></i> {$mst_siteconf.tel}</span>
+							<span class="times">受付時間　{$mst_siteconf.worktime}</span>
 						</div>
-						<p class="small mb10">午前中のご予約は混み合うことが多いため、夕方遅い時間にオーダーいただいた場合、ご対応できないケースがございます。できるだけ早めのお電話をお待ちしております。時間外のご注文は、携帯電話でお受けいたします。</p>
-						<p class="pos_ac">
-							<span class="tel cg2" data-tel="{$mst_siteconf.tel3}">TEL：{$mst_siteconf.tel3}</span>
-						</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6">
-				<div class="radius_box _last height-1">
-					<h4 class="hl_4 mincho bg_or c0">その他のお問い合わせ</h4>
-{*
+			<div class="col-sm-6 border_l">
+				<div class="_last height-1">
 					<div class="tel_unit">
-						<h5 class="mincho">お電話でのお問い合わせ</h5>
-						<div class="tel_wrap">
-							<span class="tel mincho" data-tel="086-241-0555"><i class="fa fa-phone-alt"></i> 086-241-0555</span>
-							<span class="times">受付時間　9:00〜17:00</span>
-						</div>
-					</div>
-*}
-					<div class="tel_unit">
-						<h5 class="mincho mb20">メールでのお問い合わせ</h5>
 						<div class="tel_wrap mb20">
 							<a href="/contact/" class="button _circle bg_or"><i class="fa fa-paper-plane"></i> お問い合わせフォーム</a>
 						</div>
-						<p class="small">ご依頼やご相談などお気軽にご連絡ください。<br>
-							お送りいただきましたお問い合わせには、後日折り返し返答させていただきます。お急ぎの場合は、お電話にてお問い合わせください。<br>
+						<p class="small">お送りいただきましたお問い合わせには、後日折り返し返答させていただきます。お急ぎの場合は、お電話にてお問い合わせください。<br>
 						</p>
 					</div>
 				</div>
@@ -74,7 +58,7 @@
 		</div>
 	</div>
 </div>
-<div id="copyright" class="bg_db">
+<div id="copyright" class="bg_b">
 	<div class="center">
 		<div class="row">
 			<div class="col-sm-6 col-sm-push-6">

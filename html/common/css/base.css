@@ -49,8 +49,8 @@ iframe { max-width:100%; }
 	}
 
 a, button, input[type="submit"], input[type="button"] { cursor:pointer; }
-a:link { text-decoration:underline; color:#106b6c; }
-a:visited { text-decoration:underline; color:#052264; }
+a:link { text-decoration:underline; color:#16253D; }
+a:visited { text-decoration:underline; color:#16253D; }
 a:hover { text-decoration:none; }
 a:active { text-decoration:none; }
 body.pc .ov { transition: .2s; cursor:pointer; }

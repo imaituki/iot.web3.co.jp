@@ -16,13 +16,12 @@ require "./config.ini";
 // 操作クラス
 $objManage      = new DB_manage( _DNS );
 $objInformation = new FT_information( $objManage );
-$objCase = new FT_case( $objManage );
+$objCase        = new FT_case( $objManage );
 
 // お知らせ
 $t_information  = $objInformation->GetSearchList( null, array("fetch" => _DB_FETCH_ALL), 3 );
 // 実績紹介
 $t_case  = $objCase->GetSearchList( null, array("fetch" => _DB_FETCH_ALL), 3 );
-disp_arr($t_case );
 
 // クラス削除
 unset( $objInformation   );
