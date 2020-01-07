@@ -19,7 +19,7 @@
 			<div class="pc_none img_back"><img src="http://placehold.jp/800x800.png?text=slide1" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="text">
 				<div class="center">
-					<div class="text_in"><img src="http://placehold.jp/907x411.png?text=slide1_text" alt="狭い道路・狭小地・運搬・回送のことならお任せください"></div>
+					<div class="text_in"><img src="http://placehold.jp/907x411.png?text=slide1_text" alt=""></div>
 				</div>
 			</div>
 		</div>
@@ -28,7 +28,7 @@
 			<div class="pc_none img_back"><img src="http://placehold.jp/800x800.png?text=slide2" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="text">
 				<div class="center">
-					<div class="text_in"><img src="http://placehold.jp/907x411.png?text=slide2_text" alt="狭い道路・狭小地・運搬・回送のことならお任せください"></div>
+					<div class="text_in"><img src="http://placehold.jp/907x411.png?text=slide2_text" alt=""></div>
 				</div>
 			</div>
 		</div>
@@ -37,7 +37,7 @@
 			<div class="pc_none img_back"><img src="http://placehold.jp/800x800.png?text=slide3" alt="ウェブクリエイティブ株式会社"></div>
 			<div class="text">
 				<div class="center">
-					<div class="text_in"><img src="http://placehold.jp/907x411.png?text=slide3_text" alt="狭い道路・狭小地・運搬・回送のことならお任せください"></div>
+					<div class="text_in"><img src="http://placehold.jp/907x411.png?text=slide3_text" alt=""></div>
 				</div>
 			</div>
 		</div>
@@ -45,17 +45,42 @@
 	<section>
 		<div class="pos_re sankaku wrapper-t">
 			<h2 class="hl_5">IoTの窓口とは</h2>
-			<div class="h6_unit pos_re center2">
-				<h2 class="hl_6">これまでにない体験ができる<br>製品・サービスづくりをお客さまとともに考えます</h2>
-				<p>企業のビジネス課題に対して、IoTを活用してどのように解決できるのかをご提案します。構想段階から新しい価値のある製品やサービスを世の中に出すところまでひとつの窓口で対応します。</p>
+			<div class="h6_unit pos_re center wrapper-t">
+				<div class="unit_in">
+					<h2 class="hl_6">これまでにない体験ができる<br>サービスづくりをお客さまとともに考えます</h2>
+					<p>企業のビジネス課題に対して、IoTを活用してどのように解決できるのかをご提案します。構想段階から新しい価値のある製品やサービスを世の中に出すところまでひとつの窓口で対応します。</p>
+				</div>
 			</div>
-		</div>
-		<div class="wrapper center">
-			<h2 class="cyel h6_2">「IoTの窓口」5つの強み</h2>
 		</div>
 	</section>
 	<section>
-		<div class="test wrapper pos_re"></div>
+		<div class="wrapper-t center">
+			<h2 class="cyel h6_2 mb30">「IoTの窓口」5つの強み</h2>
+			<div class="row">
+				<div class="col-xs-6 height-1">
+					<div class="triangle">
+						<div class="triangle_t"></div>
+					</div>
+				</div>
+				<div class="col-xs-6 height-1">
+					<p>aaaa</p>
+				</div>
+				<div class="col-xs-6 col-xs-push-6 height-1">
+					<div class="triangle">
+						<div class="triangle_t"></div>
+					</div>
+				</div>
+				<div class="col-xs-6 col-xs-pull-6 height-1">
+					<p>aaaa</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="wrapper-t center">
+
+			<h2 class="cyel h6_2">このようなご相談・お悩みはありませんか？</h2>
+		</div>
 	</section>
 	<section>
 		<div id="top_info" class="wrapper center">
