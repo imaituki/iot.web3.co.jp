@@ -586,11 +586,11 @@ body.pc .cat_unit a:hover { background:#e8f1f1; }
 .hl_3 .sub { padding:5px 15px 0; color:#999; }
 .hl_4 { border-radius:5px; text-align:center; font-size:1.25em; padding:5px; margin-bottom:20px; }
 .hl_4_2 { border-radius: 5px; text-align: left; font-size: 1.5em; padding: 5px; font-weight: bold; margin-bottom: 20px; padding: 15px 20px; }
-.hl_5 {position: absolute; top: 15%; color: #FFF; left: 50px; z-index: 30; font-size: 3em;}
+.hl_5 {position: absolute; top: 25%; color: #FFF; left: 50px; z-index: 30; font-size: 3em;}
 .hl_5::before {  content: "About"; color: #fff; position: absolute; font-size: 100px; top: -50px; left: -30px; opacity: 0.25; line-height: 100%; font-family: "ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","Sawarabi Mincho","游明朝","YuMincho","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;}
 
 .hl_6{ font-weight: bold; font-size: 2em; color: #CD7313; }
-.h6_unit{  position: absolute;  top: 70%; margin: auto; left: 45%; transform: translateY(-15%) translateX(-15%);}
+.h6_unit{ left: 45%; transform: translateY(-15%) translateX(-15%);}
 
 .h6_2{border-bottom: 2px solid #999; font-size: 2em; font-weight: bold;}
 	@media (max-width: 575px){

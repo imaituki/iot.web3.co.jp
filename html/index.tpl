@@ -45,7 +45,7 @@
 	<section>
 		<div class="pos_re sankaku wrapper-t">
 			<h2 class="hl_5">IoTの窓口とは</h2>
-			<div class="h6_unit">
+			<div class="h6_unit pos_re center2">
 				<h2 class="hl_6">これまでにない体験ができる<br>製品・サービスづくりをお客さまとともに考えます</h2>
 				<p>企業のビジネス課題に対して、IoTを活用してどのように解決できるのかをご提案します。構想段階から新しい価値のある製品やサービスを世の中に出すところまでひとつの窓口で対応します。</p>
 			</div>
