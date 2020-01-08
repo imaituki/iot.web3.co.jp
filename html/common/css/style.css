@@ -179,7 +179,7 @@ z-index: 20
   height: 0;
   border-left: 10vw solid transparent;
   border-right: 10vw solid transparent;
-  border-bottom: 15vw solid black;
+  border-bottom: 15vw solid #16253D;
   position: relative;
 }
 .triangle::before{
@@ -189,10 +189,17 @@ z-index: 20
 	height: 0;
 	border-left: 10vw solid transparent;
 	border-right: 10vw solid transparent;
-	border-bottom: 15vw solid orange;
-	transform: rotate(-15deg);
 }
 
+
+.triangle.s1::before{border-bottom: 15vw solid #002C54; opacity: 0.8; transform: rotate(-15deg);}
+.triangle.s1 .triangle_t{transform: rotate(15deg);}
+
+.triangle.s2::before{border-bottom: 15vw solid #CD7213; transform: rotate(20deg);}
+.triangle.s2 .triangle_t{transform: rotate(5deg);}
+
+.triangle.s3::before{border-bottom: 15vw solid #EFB509; opacity: 0.8; transform: rotate(-30deg);}
+.triangle.s3 .triangle_t{transform: rotate(-50deg);}
 /*===================================================================
 	common
 ===================================================================*/
@@ -231,34 +238,9 @@ body.pc .page_link a:hover { background:#e8f1f1; }
 		.box_title { font-size:2em; }
 	}
 
-/* トップのbox_unit使いまわし（社員紹介用） */
-.box_unit._staff {}
-.box_unit._staff .hl_name { padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #47954C; line-height:100%; }
-.box_unit._staff .hl_name .name { font-weight:bold; margin-right:20px; }
-.box_unit._staff .hl_name .en { color:#CCCCCC; }
-.box_unit._staff .hl_name .job { text-align:center; color:#fff; }
-	@media (max-width: 575px){
-		.box_unit._staff .disp_td { padding:30px; }
-		.box_unit._staff .hl_name > * { vertical-align:baseline; }
-		.box_unit._staff .hl_name .job { display:block; margin-bottom:30px; padding:5px 0; max-width:150px; }
-		.box_unit._staff .hl_name .name { font-size:2.75em; margin-right:10px; }
-		.box_unit._staff .hl_name .en { font-size:1.5em; }
-	}
-	@media (min-width: 576px){
-		.box_unit._staff .border_l { border-left:10px solid #3A8F4A; }
-		.box_unit._staff .hl_name > * { vertical-align:middle; }
-		.box_unit._staff .hl_name .job { display:inline-block; padding:3px 30px; margin-right:20px; font-size:0.8em; }
-		.box_unit._staff .hl_name .name { font-size:1.75em; }
-		.box_unit._staff .hl_name .en { font-size:1.15em; }
-		.box_unit._staff .comment { font-weight:bold; font-size:1.25em; }
-	}
-	@media (min-width: 576px) and (max-width: 991px){
-		.box_unit._staff .disp_td { padding:5px 30px; }
-	}
-	@media (min-width: 992px){
-		.box_unit._staff .disp_td { padding:5px 50px; }
-	}
-
+	.flex_yc{display:flex; justify-content:center; align-items:center;}
+	.flex_c{display:flex; align-items:center;}
+	.flex{display: flex;}
 /*===================================================================
 	#cooperative_company
 ===================================================================*/

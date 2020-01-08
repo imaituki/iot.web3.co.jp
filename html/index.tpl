@@ -55,22 +55,30 @@
 	</section>
 	<section>
 		<div class="wrapper-t center">
-			<h2 class="cyel h6_2 mb30">「IoTの窓口」5つの強み</h2>
+			<h2 class="cyel h6_2 mb30">「IoTの窓口」の強み</h2>
 			<div class="row">
 				<div class="col-xs-6 height-1">
-					<div class="triangle">
+					<div class="triangle s1">
 						<div class="triangle_t"></div>
 					</div>
 				</div>
-				<div class="col-xs-6 height-1">
+				<div class="col-xs-6 height-1 flex_c">
 					<p>aaaa</p>
 				</div>
 				<div class="col-xs-6 col-xs-push-6 height-1">
-					<div class="triangle">
+					<div class="triangle s2">
 						<div class="triangle_t"></div>
 					</div>
 				</div>
-				<div class="col-xs-6 col-xs-pull-6 height-1">
+				<div class="col-xs-6 col-xs-pull-6 height-1 flex_c">
+					<p>aaaa</p>
+				</div>
+				<div class="col-xs-6 height-1">
+					<div class="triangle s3">
+						<div class="triangle_t"></div>
+					</div>
+				</div>
+				<div class="col-xs-6 height-1 flex_c">
 					<p>aaaa</p>
 				</div>
 			</div>
