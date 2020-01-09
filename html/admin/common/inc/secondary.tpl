@@ -34,7 +34,7 @@
 				</ul>
 			</li>
 			<li {if $action == case}class="active"{/if}>
-				<a href="#"><i class="fa fa-truck"></i><span class="nav-label">実績紹介管理</span><span class="fa arrow"></span></a>
+				<a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><span class="nav-label">実績紹介管理</span><span class="fa arrow"></span></a>
 				<ul class="nav nav-second-level collapse">
 					<li {if $manage == case}class="active"{/if}><a href="{$_ADMIN.home}/contents/case/">実績紹介一覧</a></li>
 					<li {if $manage == case_category}class="active"{/if}><a href="{$_ADMIN.home}/contents/case_category/">実績紹介カテゴリ一覧</a></li>
