@@ -427,7 +427,7 @@ body.pc .page_link a:hover { background:#e8f1f1; }
 	button
 ===================================================================*/
 .button, a.button { display:inline-block; position:relative; text-align:center; line-height:100%; }
-.button, a.button, .button > a { text-decoration:none; }
+.button a { text-decoration:none;  padding: 15px 0;     display: block;}
 .button i.fa { margin:0 5px; }
 .button i.arrow { background:url(../image/contents/arrow.png) no-repeat center right/ contain; width:25px; height:14px;
 					position:absolute; right:20px; }
@@ -461,13 +461,15 @@ a.button._type_1 { position:relative; color:#fff; overflow:hidden; padding:0 15p
 	}
 
 .button._type_2,
-a.button._type_2 { position:relative; display:block; border:1px solid #106b6c; max-width:300px; padding:15px; margin:0 auto; color:#106b6c; }
-body.pc .button._type_2:hover { background:#106b6c; color:#fff; }
+a.button._type_2 { position:relative; display:block; border:1px solid #106b6c; max-width:300px; margin:0 auto; color:#106b6c; }
+
+body.pc .button._type_2 a:hover { background:#106b6c; color:#fff; }
 body.pc .button._type_2:hover i { display:none; }
 
 .button._type_3,
 a.button._type_3 { position:relative; display:block; border:2px solid #106b6c; max-width:300px; padding:15px; margin:0 auto; color:#106b6c; font-weight:bold; font-size:1.25em; border-radius:30px; }
-body.pc .button._type_3:hover { background:#106b6c; color:#fff; }
+body.pc .button._type_3:hover { background:#106b6c; }
+body.pc .button._type_3 a:hover { color:#fff; }
 body.pc .button._type_3:hover i { display:none; }
 
 
