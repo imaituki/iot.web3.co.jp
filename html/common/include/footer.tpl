@@ -6,7 +6,7 @@
 		<div class="row radius_box">
 			<div class="col-sm-6">
 				<div class="height-1">
-					<h4 class="hl_4 mincho bg_or c0">お電話でのお問い合わせ</h4>
+					<h4 class="hl_4 mincho bg_g1 c0">お電話でのお問い合わせ</h4>
 					<div class="tel_unit">
 						<div class="tel_wrap">
 							<span class="tel mincho" data-tel="{$mst_siteconf.tel}"><i class="fa fa-phone-alt"></i> {$mst_siteconf.tel}</span>
@@ -19,7 +19,7 @@
 				<div class="_last height-1">
 					<div class="tel_unit">
 						<div class="tel_wrap mb20">
-							<a href="/contact/" class="button _circle bg_or"><i class="fa fa-paper-plane"></i> お問い合わせフォーム</a>
+							<a href="/contact/" class="button _circle bg_g1"><i class="fa fa-paper-plane"></i> お問い合わせフォーム</a>
 						</div>
 						<p class="small">お送りいただきましたお問い合わせには、後日折り返し返答させていただきます。お急ぎの場合は、お電話にてお問い合わせください。<br>
 						</p>
@@ -58,7 +58,7 @@
 		</div>
 	</div>
 </div>
-<div id="copyright" class="bg_b">
+<div id="copyright" class="bg_1">
 	<div class="center">
 		<div class="row">
 			<div class="col-sm-6 col-sm-push-6">
@@ -72,7 +72,7 @@
 	</div>
 </div>
 <div id="foot_link">
-	<a href="/contact/" class="request bg_or"><span><i class="fa fa-paper-plane"></i>お問い合わせ</span></a>
+	<a href="/contact/" class="request bg_g1"><span><i class="fa fa-paper-plane"></i>お問い合わせ</span></a>
 </div>
 <div id="pagetop"><a href="javascript:void(0);" class="fa fa-angle-up"><span>pagetop</span></a></div>
 </footer>

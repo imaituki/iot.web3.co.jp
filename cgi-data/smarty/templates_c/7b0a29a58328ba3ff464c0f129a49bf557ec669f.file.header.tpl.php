@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-03 01:05:44
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-12 19:02:05
          compiled from "/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5092159645e0e007b6078a2-34130701%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b0a29a58328ba3ff464c0f129a49bf557ec669f' => 
     array (
       0 => '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/header.tpl',
-      1 => 1577981136,
+      1 => 1578823319,
       2 => 'file',
     ),
   ),
@@ -28,19 +28,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <header>
 <div id="head">
 	<div class="center">
-		<h1 class="site_logo"><a class="ov" href="/"><img src="/common/image/head/logo.png" alt="ウェブクリエイティブ株式会社"></a></h1>
+		<h1 class="site_logo"><a class="ov" href="/"><img src="https://placehold.jp/594x104.png?text=IoTの窓口byウェブクリエイティブ" alt="ウェブクリエイティブ株式会社"></a></h1>
 		<div id="head_navi">
 			<ul>
 				<li class=""><a href="/information/">新着情報</a></li>
 				<li class=""><a href="/flow/">ご相談の流れ</a></li>
 				<li class=""><a href="/case/">実績紹介</a></li>
-				<li class=""><a href="/order/">発注フォーム</a></li>
 				<li class=""><a href="/partner/">連携パートナー</a></li>
 				<li class="head_contact">
 					<span class="tel" data-tel="<?php echo $_smarty_tpl->tpl_vars['mst_siteconf']->value['tel2'];?>
-"><i class="fa fa-phone-alt"></i> <?php echo $_smarty_tpl->tpl_vars['mst_siteconf']->value['tel2'];?>
+"><i class="fa fa-phone-alt"></i> <?php echo $_smarty_tpl->tpl_vars['mst_siteconf']->value['tel'];?>
 <span class="visible-only click"><i class="fa fa-hand-point-up"></i> CLICK</span></span>
-					<a href="/contact/" class="button _circle bg_gg"><i class="fa fa-paper-plane"></i> お問い合わせ</a>
+					<a href="/contact/" class="button _circle bg_g1"><i class="fa fa-paper-plane"></i> お問い合わせ</a>
 				</li>
 			</ul>
 		</div>
