@@ -62,12 +62,12 @@ p{color: #003B46;}
 		#head .site_logo img { max-width:200px; }
 	}
 
-#head_navi li:not(.head_contact) a { display:block; color:#07575b; }
+#head_navi li:not(.head_contact) a { display:block; color:#003B46; }
 #head_navi .head_contact { text-align:center; }
 #head_navi .head_contact > * { display:block; margin:0 auto; }
 #head_navi .head_contact .tel { font-weight:bold; font-size:1.5em; margin-bottom:5px; }
 #head_navi .head_contact .tel,
-#head_navi .head_contact .tel a { color:#07575b; }
+#head_navi .head_contact .tel a { color:#003B46; }
 	@media (max-width: 575px){
 		#head_navi > ul { letter-spacing:-0.4em; }
 		#head_navi > ul > li { letter-spacing:normal; }
