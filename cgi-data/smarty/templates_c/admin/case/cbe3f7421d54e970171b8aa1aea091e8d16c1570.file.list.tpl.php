@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-03 02:11:11
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-14 10:42:16
          compiled from "/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/admin/contents/case/template/list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3718934825e0ded36482a83-01090190%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cbe3f7421d54e970171b8aa1aea091e8d16c1570' => 
     array (
       0 => '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/admin/contents/case/template/list.tpl',
-      1 => 1577984968,
+      1 => 1578965342,
       2 => 'file',
     ),
   ),

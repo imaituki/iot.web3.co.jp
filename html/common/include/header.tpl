@@ -6,7 +6,7 @@
 		<h1 class="site_logo"><a class="ov" href="/"><img src="https://placehold.jp/594x104.png?text=IoTの窓口byウェブクリエイティブ" alt="ウェブクリエイティブ株式会社"></a></h1>
 		<div id="head_navi">
 			<ul>
-				<li class=""><a href="/information/">新着情報</a></li>
+				<li class=""><a href="/information/">お知らせ</a></li>
 				<li class=""><a href="/flow/">ご相談の流れ</a></li>
 				<li class=""><a href="/case/">実績紹介</a></li>
 				<li class=""><a href="/partner/">連携パートナー</a></li>

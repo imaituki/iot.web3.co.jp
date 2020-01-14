@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-13 22:04:48
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-14 10:31:00
          compiled from "./index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1662512195d37cbd6391910-36850460%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e8b82e36b14a5b32b9082c90cfde424dcce75e56' => 
     array (
       0 => './index.tpl',
-      1 => 1578920683,
+      1 => 1578965333,
       2 => 'file',
     ),
   ),
@@ -141,14 +141,14 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
 	                <h2 class="sub">Advantage</h2>
 	            </div>
 				<div class="row">
-					<div class="col-sm-4">
+					<div class="col-sm-4 mb30">
 						<div class="strong">
 							<div class="ico"><img src="/common/image/contents/top/ico01.jpg"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>ひとつの窓口で<br class="none">トータルサポート</h3>
 							<p>IoTシステムの導入で利便性向上やコスト削減を目指すお客様のために、制作にとどまることなく、業務のサポート・改善提案ができるよう、要件定義から運用アシストまでトータルサポートします。</p>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 mb30">
 						<div class="strong">
 							<div class="ico"><img src="/common/image/contents/top/ico02.jpg"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>IoTコンサルタントが<br class="none">無料でご相談承ります。</h3>

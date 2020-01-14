@@ -193,7 +193,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <img src="common/image/contents/top/news.jpg" alt="">
                         </div>
                         <div style="margin-left: 20px;">
-                            <p class="pos_al">2019.03.25 | 新着情報</p>
+                            <p class="pos_al">2019.03.25 | お知らせ</p>
                             <p class="pos_al">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
                         </div>
                     </div>
@@ -204,7 +204,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <img src="common/image/contents/top/news.jpg" alt="">
                         </div>
                         <div style="margin-left: 20px;">
-                            <p class="pos_al">2019.03.25 | 新着情報</p>
+                            <p class="pos_al">2019.03.25 | お知らせ</p>
                             <p class="pos_al">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
                         </div>
                     </div>
@@ -215,7 +215,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <img src="common/image/contents/top/news.jpg" alt="">
                         </div>
                         <div style="margin-left: 20px;">
-                            <p class="pos_al">2019.03.25 | 新着情報</p>
+                            <p class="pos_al">2019.03.25 | お知らせ</p>
                             <p class="pos_al">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
                         </div>
                     </div>
@@ -226,7 +226,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <img src="common/image/contents/top/news.jpg" alt="">
                         </div>
                         <div style="margin-left: 20px;">
-                            <p class="pos_al">2019.03.25 | 新着情報</p>
+                            <p class="pos_al">2019.03.25 | お知らせ</p>
                             <p class="pos_al">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
                         </div>
                     </div>

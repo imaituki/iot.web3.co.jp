@@ -112,7 +112,7 @@ input.w150 { width:150px; }
 .list_pager ul li strong,
 .list_pager ul li a { display:inline-block; padding:8px 10px 9px; border:1px solid #CCC; color:#888; text-decoration:none; line-height:100%; }
 .list_pager ul li strong,
-.list_pager ul li a:hover { background:#0f7a45; color:#FFF; border:1px solid #0f7a45; }
+.list_pager ul li a:hover { background:#07575B; color:#FFF; border:1px solid #07575B; }
 
 /* form */
 .error { display:block; margin:5px 0; padding:5px; background:#F8EAE8; color:#BC2F1C; font-weight:normal; }

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2019-11-07 12:47:29
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-14 10:30:11
          compiled from "./index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13601204805d31857c601d19-75819137%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e8b82e36b14a5b32b9082c90cfde424dcce75e56' => 
     array (
       0 => './index.tpl',
-      1 => 1573096351,
+      1 => 1578965333,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'template_meta' => 0,
-    '_RENEWAL_DIR' => 0,
     'template_javascript' => 0,
     'template_header' => 0,
     't_information' => 0,
@@ -32,15 +31,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5d31857c650ea9_47437403')) {function content_5d31857c650ea9_47437403($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/virtual/119.245.151.134/data/smarty/libs/plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5d31857c650ea9_47437403')) {function content_5d31857c650ea9_47437403($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/cgi-data/smarty/libs/plugins/modifier.date_format.php';
 ?><!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
 <?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_meta']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/css/import.css">
+<link rel="stylesheet" href="/common/css/import.css">
 <?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_javascript']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 </head>
@@ -51,10 +49,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <main>
 <div id="body">
 	<div id="page_title">
-		<div class="img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/form_top.jpg" alt="お知らせ"></div>
+		<div class="img_back"><img src="/common/image/contents/form_top.jpg" alt="お知らせ"></div>
 		<div class="page_title_wrap">
-			<div class="center mincho cg">
+			<div class="center mincho c2">
 				<h2><span class="main">お知らせ</span><span class="sub">News</span></h2>
 			</div>
 		</div>
@@ -62,8 +59,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<div id="pankuzu" class="bg_gg">
 		<div class="center">
 			<ul>
-				<li><a href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/"><i class="fa fa-home"></i></a></li>
+				<li><a href="/"><i class="fa fa-home"></i></a></li>
 				<li>お知らせ</li>
 			</ul>
 		</div>
@@ -82,18 +78,16 @@ $_smarty_tpl->tpl_vars["information"]->_loop = true;
 <?php if ($_smarty_tpl->tpl_vars['arr_get']->value['page']!=null) {?>&page=<?php echo $_smarty_tpl->tpl_vars['arr_get']->value['page'];?>
 <?php }?>">
 					<div class="photo img_rect">
-						<img src="<?php if ($_smarty_tpl->tpl_vars['information']->value['image1']) {?><?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/photo/information/image1/m_<?php echo $_smarty_tpl->tpl_vars['information']->value['image1'];?>
-<?php } else { ?><?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/null.jpg<?php }?>" alt="<?php echo $_smarty_tpl->tpl_vars['information']->value['title'];?>
+						<img src="<?php if ($_smarty_tpl->tpl_vars['information']->value['image1']) {?>/common/photo/information/image1/m_<?php echo $_smarty_tpl->tpl_vars['information']->value['image1'];?>
+<?php } else { ?>http://placehold.jp/ccc/66a5ad/600x450.png?text=null<?php }?>" alt="<?php echo $_smarty_tpl->tpl_vars['information']->value['title'];?>
 ">
 					</div>
 					<div class="text">
 						<div class="disp_td">
 							<p class="mb10">
-								<span class="date cg2"><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['information']->value['date'],"%Y/%m/%d");?>
+								<span class="date c1"><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['information']->value['date'],"%Y/%m/%d");?>
 </span>
-								<span class="tag _c1"><?php echo $_smarty_tpl->tpl_vars['OptionInformationCategory']->value[$_smarty_tpl->tpl_vars['information']->value['information_category']];?>
+								<span class="tag c1"><?php echo $_smarty_tpl->tpl_vars['OptionInformationCategory']->value[$_smarty_tpl->tpl_vars['information']->value['id_information_category']];?>
 </span></p>
 							<h3><?php echo $_smarty_tpl->tpl_vars['information']->value['title'];?>
 </h3>

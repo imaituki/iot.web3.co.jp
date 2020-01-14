@@ -46,17 +46,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <main>
 <div id="page_title">
-	<div class="img_back"><img src="/common/image/contents/contact/top.jpg" alt="新着情報"></div>
+	<div class="img_back"><img src="/common/image/contents/contact/top.jpg" alt="お知らせ"></div>
 	<div class="page_title_wrap">
 		<div class="center">
-			<h2><span class="mincho">新着情報</span><span class="sub">Information</span></h2>
+			<h2><span class="mincho">お知らせ</span><span class="sub">Information</span></h2>
 		</div>
 	</div>
 </div>
 <div id="pankuzu">
 	<ul class="center">
 		<li><a href="/">TOP</a></li>
-		<li><a href="./">新着情報</a></li>
+		<li><a href="./">お知らせ</a></li>
 		<li><?php echo $_smarty_tpl->tpl_vars['t_information']->value['title'];?>
  </li>
 	</ul>

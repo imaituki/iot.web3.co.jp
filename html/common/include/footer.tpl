@@ -42,7 +42,7 @@
 					<div class="col-xs-6">
 						<ul>
 							<li><a href="/company/" class="fa_b">会社概要</a></li>
-							<li><a href="/information/" class="fa_b">新着情報</a></li>
+							<li><a href="/information/" class="fa_b">お知らせ</a></li>
 							<li><a href="/flow/" class="fa_b">ご相談の流れ</a></li>
 						</ul>
 					</div>

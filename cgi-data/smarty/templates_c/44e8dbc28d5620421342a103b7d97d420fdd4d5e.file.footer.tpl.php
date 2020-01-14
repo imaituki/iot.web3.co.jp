@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-12 19:02:05
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-14 10:31:00
          compiled from "/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3050488955e0e007b648567-32616972%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '44e8dbc28d5620421342a103b7d97d420fdd4d5e' => 
     array (
       0 => '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/footer.tpl',
-      1 => 1578823319,
+      1 => 1578965333,
       2 => 'file',
     ),
   ),
@@ -74,7 +74,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<div class="col-xs-6">
 						<ul>
 							<li><a href="/company/" class="fa_b">会社概要</a></li>
-							<li><a href="/information/" class="fa_b">新着情報</a></li>
+							<li><a href="/information/" class="fa_b">お知らせ</a></li>
 							<li><a href="/flow/" class="fa_b">ご相談の流れ</a></li>
 						</ul>
 					</div>

@@ -101,14 +101,14 @@
 	                <h2 class="sub">Advantage</h2>
 	            </div>
 				<div class="row">
-					<div class="col-sm-4">
+					<div class="col-sm-4 mb30">
 						<div class="strong">
 							<div class="ico"><img src="/common/image/contents/top/ico01.jpg"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>ひとつの窓口で<br class="none">トータルサポート</h3>
 							<p>IoTシステムの導入で利便性向上やコスト削減を目指すお客様のために、制作にとどまることなく、業務のサポート・改善提案ができるよう、要件定義から運用アシストまでトータルサポートします。</p>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 mb30">
 						<div class="strong">
 							<div class="ico"><img src="/common/image/contents/top/ico02.jpg"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>IoTコンサルタントが<br class="none">無料でご相談承ります。</h3>

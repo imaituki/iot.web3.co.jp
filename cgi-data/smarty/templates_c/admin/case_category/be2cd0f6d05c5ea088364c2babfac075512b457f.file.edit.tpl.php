@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2019-10-08 13:39:21
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-14 10:49:19
          compiled from "../template/edit.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13123010855d9c0f01f051e3-03050638%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'be2cd0f6d05c5ea088364c2babfac075512b457f' => 
     array (
       0 => '../template/edit.tpl',
-      1 => 1570509418,
+      1 => 1578965342,
       2 => 'file',
     ),
   ),
@@ -30,36 +30,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_5d9c0f02019d04_40747773')) {function content_5d9c0f02019d04_40747773($_smarty_tpl) {?><!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>管理画面</title>
-<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/css/bootstrap.min.css" rel="stylesheet">
-<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/font-awesome/css/font-awesome.css" rel="stylesheet">
-<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/css/animate.css" rel="stylesheet">
-<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/css/plugins/codemirror/codemirror.css" rel="stylesheet">
-<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/css/plugins/codemirror/ambiance.css" rel="stylesheet">
-<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
-<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/css/style.css" rel="stylesheet">
-<!-- FooTable -->
-<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/css/plugins/footable/footable.core.css" rel="stylesheet">
-<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_javascript']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>管理画面</title>
+	<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
+/common/css/import.css" rel="stylesheet" />
+	<link href="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
+/common/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
+	<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_javascript']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-<script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
+	<script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
 /common/js/input.js"></script>
-<script src="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/js/plugins/jquery-ui/jquery-ui.min.js"></script>
-<script src="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/js/plugins/datapicker/bootstrap-datepicker-import.js"></script>
-<script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['_ADMIN']->value['home'];?>
-/common/js/ckeditor/ckeditor.js"></script>
 </head>
 <body class="fixed-sidebar no-skin-config">
 <div id="wrapper">
