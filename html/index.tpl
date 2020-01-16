@@ -103,21 +103,21 @@
 				<div class="row">
 					<div class="col-sm-4 mb30">
 						<div class="strong">
-							<div class="ico"><img src="/common/image/contents/top/ico01.jpg"alt=""></div>
+							<div class="ico"><img src="/common/image/contents/top/ico01.png"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>ひとつの窓口で<br class="none">トータルサポート</h3>
 							<p>IoTシステムの導入で利便性向上やコスト削減を目指すお客様のために、制作にとどまることなく、業務のサポート・改善提案ができるよう、要件定義から運用アシストまでトータルサポートします。</p>
 						</div>
 					</div>
 					<div class="col-sm-4 mb30">
 						<div class="strong">
-							<div class="ico"><img src="/common/image/contents/top/ico02.jpg"alt=""></div>
+							<div class="ico"><img src="/common/image/contents/top/ico02.png"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>IoTコンサルタントが<br class="none">無料でご相談承ります。</h3>
 							<p>「なにからはじめたら良いかわからない」などIoTビジネスに関するどんなことでも構いません。お気軽にご相談ください。</p>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="strong">
-							<div class="ico"><img src="/common/image/contents/top/ico03.jpg"alt=""></div>
+							<div class="ico"><img src="/common/image/contents/top/ico03.png"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>パートナー企業と連携、<br class="none">スピード開発</h3>
 							<p>パートナー企業との連携で、柔軟な仕様を最短で開発します。</p>
 						</div>
@@ -141,7 +141,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="q_unit height-1">
+					<div class="q_unit _or height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>02</h3>
 						<p>まずは、ビジネス課題の整理やアイデアのヒントが欲しい。</p>
@@ -155,7 +155,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="q_unit height-1">
+					<div class="q_unit _or height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>04</h3>
 						<p>IoT化によってスタッフの業務負担を軽減したい、人的コストを削減したい。</p>
@@ -169,7 +169,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="q_unit height-1">
+					<div class="q_unit _or height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>06</h3>
 						<p>IoT化したいが、セキュリティに懸念がある。</p>
