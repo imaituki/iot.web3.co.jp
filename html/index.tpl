@@ -62,12 +62,12 @@
 	<section>
 		<div class="center wrapper first">
             <h2 class="hl_1 pos_ac mincho">ビジネス課題を解決し、要件定義から運用アシストまで<br class="none">価値あるサービスづくりをお客さまと実現します。</h2>
-            <div class="row mb20">
-				<div class="col-sm-4 col-sm-push-8 height-1 bg_g before">
+            <div class="row mb20 bg_g">
+				<div class="col-sm-4 col-sm-push-8 height-1 before">
 					<p class="text">before</p>
 					<p class="pos_ac"><img src="/common/image/contents/top/before.png"alt=""></p>
             	</div>
-            	<div class="col-sm-8 col-sm-pull-4 height-1 before_text disp_tbl bg_g">
+            	<div class="col-sm-8 col-sm-pull-4 height-1 before_text disp_tbl">
 					<div class="disp_td bg0">
 						<h3>IoTビジネス化へのさまざまな障壁</h3>
 						<ul class="trouble">
@@ -79,12 +79,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-4 height-1 bg_lb after">
+			<div class="row bg_lb">
+				<div class="col-sm-4 height-1 after">
 					<p class="text">after</p>
 					<p class="pos_ac"><img src="/common/image/contents/top/after.png"alt=""></p>
 				</div>
-				<div class="col-sm-8 height-1 after_text disp_tbl bg_lb">
+				<div class="col-sm-8 height-1 after_text disp_tbl">
 					<div class="disp_td bg0">
 						<h3>ひとつの窓口でIoTビジネス化</h3>
 						<p>IoTビジネス化における障壁を取り除いて、お客さまの事業における最適解を導きます。<br>モノ・コト・ヒトがつながり、利用者の感動体験を提供し、これまでとは違う新しい価値のある製品やサービスを生み出します。</p>

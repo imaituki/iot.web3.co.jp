@@ -19,7 +19,7 @@
 				<div class="_last height-1">
 					<div class="tel_unit">
 						<div class="tel_wrap mb20">
-							<a href="/contact/" class="button _circle bg_g1"><i class="fa fa-paper-plane"></i> お問い合わせフォーム</a>
+							<a href="/contact/" class="button _circle bg_or"><i class="fa fa-paper-plane"></i> お問い合わせフォーム</a>
 						</div>
 						<p class="small">お送りいただきましたお問い合わせには、後日折り返し返答させていただきます。お急ぎの場合は、お電話にてお問い合わせください。<br>
 						</p>
