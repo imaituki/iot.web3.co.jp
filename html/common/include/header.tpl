@@ -3,7 +3,7 @@
 <header>
 <div id="head">
 	<div class="center">
-		<h1 class="site_logo"><a class="ov" href="/"><img src="https://placehold.jp/594x104.png?text=IoTの窓口byウェブクリエイティブ" alt="ウェブクリエイティブ株式会社"></a></h1>
+		<h1 class="site_logo"><a class="ov" href="/"><img src="https://placehold.jp/594x104.png?text=岡山IoTコンソーシアムみんなのIoT" alt="ウェブクリエイティブ株式会社"></a></h1>
 		<div id="head_navi">
 			<ul>
 				<li class=""><a href="/information/">お知らせ</a></li>
