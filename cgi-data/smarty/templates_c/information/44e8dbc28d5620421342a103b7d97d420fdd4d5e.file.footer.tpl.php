@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-14 10:30:11
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-17 14:12:59
          compiled from "/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6818901325e1c75d6455a14-06325165%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '44e8dbc28d5620421342a103b7d97d420fdd4d5e' => 
     array (
       0 => '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/footer.tpl',
-      1 => 1578965333,
+      1 => 1579219847,
       2 => 'file',
     ),
   ),
@@ -47,7 +47,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<div class="_last height-1">
 					<div class="tel_unit">
 						<div class="tel_wrap mb20">
-							<a href="/contact/" class="button _circle bg_g1"><i class="fa fa-paper-plane"></i> お問い合わせフォーム</a>
+							<a href="/contact/" class="button _circle bg_or"><i class="fa fa-paper-plane"></i> お問い合わせフォーム</a>
 						</div>
 						<p class="small">お送りいただきましたお問い合わせには、後日折り返し返答させていただきます。お急ぎの場合は、お電話にてお問い合わせください。<br>
 						</p>

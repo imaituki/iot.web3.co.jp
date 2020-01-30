@@ -102,7 +102,7 @@
 		<div class="bg_g">
 			<div class="center wrapper">
 				<div class="pos_ac hl_1 mincho">
-	                <h2 class="title">「岡山IoTコンソーシアみんなのIoT」の強み</h2>
+	                <h2 class="title">「岡山IoTコンソーシアムみんなのIoT」の強み</h2>
 	                <h2 class="sub">Advantage</h2>
 	            </div>
 				<div class="row">
@@ -189,7 +189,7 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div id="top_news" class="height-1 mb20">
-							<h2 class="hl_3"><span class="mincho main c2">News</span><span class="sub">お知らせ</span></h2>
+							<h2 class="hl_3"><span class="mincho main c2">Information</span><span class="sub">お知らせ</span></h2>
 							{assign var="new_date" value=$smarty.now-24*60*60*14}
 							{foreach from=$t_information item="information" key="key" name="LoopInfomation"}
 							<div class="info_unit">

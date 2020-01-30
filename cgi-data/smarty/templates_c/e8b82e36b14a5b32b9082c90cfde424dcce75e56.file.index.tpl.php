@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-14 10:31:00
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-19 23:52:34
          compiled from "./index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1662512195d37cbd6391910-36850460%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e8b82e36b14a5b32b9082c90cfde424dcce75e56' => 
     array (
       0 => './index.tpl',
-      1 => 1578965333,
+      1 => 1579445546,
       2 => 'file',
     ),
   ),
@@ -60,7 +60,7 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class="mincho c1"><span>これまでにないサービスづくりを<br>お客さまとともに考えます。</span><br>まずは相談から<br>はじめてみませんか?</h1>
+						<h1 class="mincho c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -71,7 +71,7 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class="mincho c1"><span>これまでにないサービスづくりを<br>お客さまとともに考えます。</span><br>まずは相談から<br>はじめてみませんか?</h1>
+						<h1 class="mincho c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class="mincho c1"><span>これまでにないサービスづくりを<br>お客さまとともに考えます。</span><br>まずは相談から<br>はじめてみませんか?</h1>
+						<h1 class="mincho c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -93,7 +93,7 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class="mincho c1"><span>これまでにないサービスづくりを<br>お客さまとともに考えます。</span><br>まずは相談から<br>はじめてみませんか?</h1>
+						<h1 class="mincho c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -109,12 +109,12 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
             	</div>
             	<div class="col-sm-8 col-sm-pull-4 height-1 before_text disp_tbl bg_g">
 					<div class="disp_td bg0">
-						<h3>IoTビジネス化へのさまざまな障壁</h3>
+						<h3>IoT導入のハードル</h3>
 						<ul class="trouble">
-							<li>正直、IoTって何からはじめたら良いのかわからない。</li>
-							<li>ビジネス課題の整理やアイデアのヒントが欲しい。</li>
-							<li>構想はあるけれど、実現の筋道がわからない。</li>
-							<li>センサー・通信・セキュリティなど、技術的課題をクリアできるか？</li>
+							<li>技術に詳しいエンジニアがいない。</li>
+							<li>法規制や補助金のことが分からない。</li>
+							<li>具体的に何をしたら良いか分からない。</li>
+							<li>現場の抵抗がある</li>
 						</ul>
 					</div>
 				</div>
@@ -126,8 +126,13 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
 				</div>
 				<div class="col-sm-8 height-1 after_text disp_tbl bg_lb">
 					<div class="disp_td bg0">
-						<h3>ひとつの窓口でIoTビジネス化</h3>
-						<p>IoTビジネス化における障壁を取り除いて、お客さまの事業における最適解を導きます。<br>モノ・コト・ヒトがつながり、利用者の感動体験を提供し、これまでとは違う新しい価値のある製品やサービスを生み出します。</p>
+						<h3>IoT導入のハードルを下げるため</h3>
+						<p>
+							1.異業種がワンチームとなり<br>
+							2.課題を共有<br>
+							3.アイデアを具体化<br>
+							4.得意分野を活用
+						</p>
 					</div>
 				</div>
             </div>
@@ -137,18 +142,18 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
 		<div class="bg_g">
 			<div class="center wrapper">
 				<div class="pos_ac hl_1 mincho">
-	                <h2 class="title">「IoTの窓口」の強み</h2>
+	                <h2 class="title">「岡山IoTコンソーシアみんなのIoT」の強み</h2>
 	                <h2 class="sub">Advantage</h2>
 	            </div>
 				<div class="row">
-					<div class="col-sm-4 mb30">
+					<div class="col-sm-4">
 						<div class="strong">
 							<div class="ico"><img src="/common/image/contents/top/ico01.jpg"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>ひとつの窓口で<br class="none">トータルサポート</h3>
 							<p>IoTシステムの導入で利便性向上やコスト削減を目指すお客様のために、制作にとどまることなく、業務のサポート・改善提案ができるよう、要件定義から運用アシストまでトータルサポートします。</p>
 						</div>
 					</div>
-					<div class="col-sm-4 mb30">
+					<div class="col-sm-4">
 						<div class="strong">
 							<div class="ico"><img src="/common/image/contents/top/ico02.jpg"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>IoTコンサルタントが<br class="none">無料でご相談承ります。</h3>
@@ -177,42 +182,42 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
 					<div class="q_unit height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>01</h3>
-						<p>正直、IoTって何からはじめたら良いのかわらかない。</p>
+						<p>ハードの作り方が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="q_unit height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>02</h3>
-						<p>まずは、ビジネス課題の整理やアイデアのヒントが欲しい。</p>
+						<p>通信をつなげる方法が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="q_unit height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>03</h3>
-						<p>構想はあるけれど、実現の筋道がわからない。</p>
+						<p>データ管理の方法が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="q_unit height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>04</h3>
-						<p>IoT化によってスタッフの業務負担を軽減したい、人的コストを削減したい。</p>
+						<p>データの可視化・分析方法が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="q_unit height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>05</h3>
-						<p>技術的なハードルが高くて、サービス実現化・収益化には至っていない。</p>
+						<p>AIの作り方が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="q_unit height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>06</h3>
-						<p>IoT化したいが、セキュリティに懸念がある。</p>
+						<p>モーターの制御方法が分からない</p>
 					</div>
 				</div>
 			</div>

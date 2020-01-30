@@ -254,6 +254,38 @@
 	0% {transform: rotate(0deg);}
 	100% {transform: rotate(360deg);}
 }
+
+
+/*===================================================================
+	#information
+===================================================================*/
+#info_detail .title { font-size:1.75em; border-bottom:2px dotted #ccc; padding:0 0 20px; margin-bottom:40px; }
+	@media (max-width: 575px){
+		#info_detail .title { line-height:140%; }
+	}
+
+.info_box { margin-bottom:30px; padding-bottom:30px; border-bottom:1px solid #ddd; }
+.info_box a { display:table; width:100%; text-decoration:none; color:#444; }
+.info_box a > * { display:table-cell; }
+.info_box .photo { width:25%; }
+.info_box .text { padding:0 0 0 25px; }
+.info_box .text h3 { font-weight:bold; }
+
+	@media (max-width: 575px){
+		.info_box a > * { vertical-align:top; }
+		.info_box .text h3 { font-size:1.15em; }
+	}
+	@media (min-width: 576px){
+		.info_box a > * { vertical-align:middle; }
+		.info_box .text h3 { font-size:1.5em; padding:10px 0 0; }
+		.box { box-shadow:0 0 5px #ccc; padding:50px; }
+	}
+
+/*===================================================================
+	#case
+===================================================================*/
+#case .text_unit{padding: 15px; background: #f0f0f0;}
+
 /*===================================================================
 	common
 ===================================================================*/
@@ -322,33 +354,6 @@ body.pc .page_link a:hover { background:#e8f1f1; }
 @media (max-width: 575px){
 #foot_info .cg_box .text {margin-bottom: 20px;}
 }
-
-
-
-/*===================================================================
-	#information
-===================================================================*/
-#info_detail .title { font-size:1.75em; border-bottom:2px dotted #ccc; padding:0 0 20px; margin-bottom:40px; }
-	@media (max-width: 575px){
-		#info_detail .title { line-height:140%; }
-	}
-
-.info_box { margin-bottom:30px; padding-bottom:30px; border-bottom:1px solid #ddd; }
-.info_box a { display:table; width:100%; text-decoration:none; color:#444; }
-.info_box a > * { display:table-cell; }
-.info_box .photo { width:25%; }
-.info_box .text { padding:0 0 0 25px; }
-.info_box .text h3 { font-weight:bold; }
-
-	@media (max-width: 575px){
-		.info_box a > * { vertical-align:top; }
-		.info_box .text h3 { font-size:1.15em; }
-	}
-	@media (min-width: 576px){
-		.info_box a > * { vertical-align:middle; }
-		.info_box .text h3 { font-size:1.5em; padding:10px 0 0; }
-		.box { box-shadow:0 0 5px #ccc; padding:50px; }
-	}
 
 
 /*===================================================================

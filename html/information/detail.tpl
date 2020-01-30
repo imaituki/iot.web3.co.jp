@@ -16,7 +16,7 @@
 		<div class="img_back"><img src="/common/image/contents/form_top.jpg" alt="お知らせ"></div>
 		<div class="page_title_wrap">
 			<div class="center mincho c2">
-				<h2><span class="main">お知らせ</span><span class="sub">News</span></h2>
+				<h2><span class="main">お知らせ</span><span class="sub">Information</span></h2>
 			</div>
 		</div>
 	</div>
