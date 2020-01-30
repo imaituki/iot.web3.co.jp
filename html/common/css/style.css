@@ -373,7 +373,6 @@ body.pc .page_link a:hover { background:#e8f1f1; }
 .entry ol > li > ol > li:before { color:#f49901; }
 
 .entry dl {}
-.entry dt { color:#003e67; font-weight:bold; font-size:1.1em; }
 .entry dd { margin-bottom:20px; }
 
 .entry table { margin-bottom:30px; width:100%; box-shadow: 0 0 3px #999;}

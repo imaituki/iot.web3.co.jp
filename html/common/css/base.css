@@ -116,7 +116,7 @@ input.w150 { width:150px; }
 
 /* form */
 .error { display:block; margin:5px 0; padding:5px; background:#F8EAE8; color:#BC2F1C; font-weight:normal; }
-.need {  border: 1px solid #50A243; color: #50A243; padding: 0px 5px; border-radius: 5px; }
+.need {  border: 1px solid #b95719; color: #b95719; padding: 0px 5px; border-radius: 5px; }
 
 /* admin */
 #alert_preview { z-index:100; padding:15px; color:#FFFFFF; background:#CC3129; text-align:center; }

@@ -20,7 +20,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="pankuzu" class="bg_gg">
+	<div id="pankuzu">
 		<div class="center">
 			<ul>
 				<li><a href="/"><i class="fa fa-home"></i></a></li>

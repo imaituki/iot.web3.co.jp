@@ -155,7 +155,7 @@ p{color: #003B46;}
 .tel_wrap { text-align:center; }
 .tel_wrap span { display:block; line-height:140%; }
 .tel_wrap .times { color:#999; margin-bottom:20px; }
-.tel_wrap .button._circle { padding:25px; }
+.tel_wrap .button._circle { padding:25px; text-decoration: none;}
 .tel_wrap .tel,
 .tel_wrap .tel a { color:#b95719; text-decoration:none; }
 	@media (max-width: 767px){
@@ -272,7 +272,7 @@ body:not(#top) #foot_recruit { display:none; }
 	}
 
 /* pankuzu */
-#pankuzu { text-align:left; font-size:13px; padding:10px 0; color:#fff; }
+#pankuzu { text-align:left; font-size:13px; padding:10px 0; color:#fff;  background: #07575B;}
 #pankuzu a { color:#fff; }
 #pankuzu li { display:inline-block; }
 #pankuzu li:before { content:"\f054"; font-family:"Font Awesome 5 Free"; -webkit-font-smoothing:antialiased; text-rendering:auto; font-variant:normal; font-weight:bold; font-size:0.85em; padding:0 10px; color:#fff; }
