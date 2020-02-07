@@ -120,11 +120,11 @@ if (!is_callable('smarty_modifier_truncate')) include '/data/domain/BB0B6DDA-20C
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 height-1 bg_lb after">
+				<div class="col-sm-4 height-1 bg_y after">
 					<p class="text">after</p>
 					<p class="pos_ac"><img src="/common/image/contents/top/after.png"alt=""></p>
 				</div>
-				<div class="col-sm-8 height-1 after_text disp_tbl bg_lb">
+				<div class="col-sm-8 height-1 after_text disp_tbl bg_y">
 					<div class="disp_td bg0">
 						<h3>IoT導入のハードルを下げるため</h3>
 						<p>

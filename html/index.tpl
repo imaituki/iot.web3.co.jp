@@ -20,7 +20,7 @@
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class="mincho c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+						<h1 class="fast_v c0"><span class="s1"><span class="s2">岡山Iotコンソーシアム</span><span class="s3">みんなのIoT</span></span></h1>
 					</div>
 				</div>
 			</div>
@@ -31,7 +31,7 @@
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class="mincho c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class="mincho c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -53,21 +53,43 @@
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class="mincho c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="unit">
+			<div class="sp_none img_back"><img src="/common/image/contents/top/slide5.jpg" alt="ウェブクリエイティブ株式会社"></div>
+			<div class="pc_none img_back"><img src="/common/image/contents/top/slide5sp.jpg" alt="ウェブクリエイティブ株式会社"></div>
+			<div class="text">
+				<div class="center">
+					<div class="text_in">
+						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="unit">
+			<div class="sp_none img_back"><img src="/common/image/contents/top/slide6.jpg" alt="ウェブクリエイティブ株式会社"></div>
+			<div class="pc_none img_back"><img src="/common/image/contents/top/slide6sp.jpg" alt="ウェブクリエイティブ株式会社"></div>
+			<div class="text">
+				<div class="center">
+					<div class="text_in">
+						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<section>
-		<div class="center wrapper first">
-            <h2 class="hl_1 pos_ac mincho">ビジネス課題を解決し、要件定義から運用アシストまで<br class="none">価値あるサービスづくりをお客さまと実現します。</h2>
-            <div class="row mb20">
-				<div class="col-sm-4 col-sm-push-8 height-1 bg_g before">
+		<div class="center wrapper first" id="top_1">
+            <h2 class="hl_1 pos_ac ">ビジネス課題を解決し、要件定義から運用アシストまで<br class="none">価値あるサービスづくりをお客さまと実現します。</h2>
+            <div class="row mb20 bg_g">
+				<div class="col-sm-4 col-sm-push-8 height-1 before">
 					<p class="text">before</p>
 					<p class="pos_ac"><img src="/common/image/contents/top/before.png"alt=""></p>
             	</div>
-            	<div class="col-sm-8 col-sm-pull-4 height-1 before_text disp_tbl bg_g">
+            	<div class="col-sm-8 col-sm-pull-4 height-1 before_text disp_tbl">
 					<div class="disp_td bg0">
 						<h3>IoT導入のハードル</h3>
 						<ul class="trouble">
@@ -79,12 +101,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-4 height-1 bg_lb after">
+			<div class="row bg_y">
+				<div class="col-sm-4 height-1 after">
 					<p class="text">after</p>
 					<p class="pos_ac"><img src="/common/image/contents/top/after.png"alt=""></p>
 				</div>
-				<div class="col-sm-8 height-1 after_text disp_tbl bg_lb">
+				<div class="col-sm-8 height-1 after_text disp_tbl">
 					<div class="disp_td bg0">
 						<h3>IoT導入のハードルを下げるため</h3>
 						<p>
@@ -98,31 +120,31 @@
             </div>
 		</div>
 	</section>
-	<section >
-		<div class="bg_g">
+	<section>
+		<div class="bg_g" id="top_2">
 			<div class="center wrapper">
-				<div class="pos_ac hl_1 mincho">
+				<div class="pos_ac hl_1 ">
 	                <h2 class="title">「岡山IoTコンソーシアムみんなのIoT」の強み</h2>
 	                <h2 class="sub">Advantage</h2>
 	            </div>
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="strong">
-							<div class="ico"><img src="/common/image/contents/top/ico01.jpg"alt=""></div>
+							<div class="ico"><img src="/common/image/contents/top/ico01.png"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>ひとつの窓口で<br class="none">トータルサポート</h3>
 							<p>IoTシステムの導入で利便性向上やコスト削減を目指すお客様のために、制作にとどまることなく、業務のサポート・改善提案ができるよう、要件定義から運用アシストまでトータルサポートします。</p>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="strong">
-							<div class="ico"><img src="/common/image/contents/top/ico02.jpg"alt=""></div>
+							<div class="ico"><img src="/common/image/contents/top/ico02.png"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>IoTコンサルタントが<br class="none">無料でご相談承ります。</h3>
 							<p>「なにからはじめたら良いかわからない」などIoTビジネスに関するどんなことでも構いません。お気軽にご相談ください。</p>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="strong">
-							<div class="ico"><img src="/common/image/contents/top/ico03.jpg"alt=""></div>
+							<div class="ico"><img src="/common/image/contents/top/ico03.png"alt=""></div>
 							<h3><i class="swing fas fa-lightbulb"></i>パートナー企業と連携、<br class="none">スピード開発</h3>
 							<p>パートナー企業との連携で、柔軟な仕様を最短で開発します。</p>
 						</div>
@@ -133,7 +155,7 @@
 	</section>
 	<section>
 		<div class="wrapper-t center">
-			<div class="pos_ac hl_1 mincho">
+			<div class="pos_ac hl_1 ">
 				<h2 class="title">このようなお悩みをお持ちの方に</h2>
 				<h2 class="sub">Worries</h2>
 			</div>
@@ -189,7 +211,7 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div id="top_news" class="height-1 mb20">
-							<h2 class="hl_3"><span class="mincho main c2">Information</span><span class="sub">お知らせ</span></h2>
+							<h2 class="hl_3"><span class=" main c2">Information</span><span class="sub">お知らせ</span></h2>
 							{assign var="new_date" value=$smarty.now-24*60*60*14}
 							{foreach from=$t_information item="information" key="key" name="LoopInfomation"}
 							<div class="info_unit">
@@ -215,7 +237,7 @@
 					</div>
 					<div class="col-sm-6">
 						<div id="top_case" class="height-1 mb20">
-							<h2 class="hl_3"><span class="mincho main c2">Case</span><span class="sub">実績紹介</span></h2>
+							<h2 class="hl_3"><span class=" main c2">Case</span><span class="sub">実績紹介</span></h2>
 							{foreach from=$t_case item="case" key="key" name="LoopCase"}
 							<div class="info_unit">
 								<a href="/case/detail.php?id={$case.id_case}">

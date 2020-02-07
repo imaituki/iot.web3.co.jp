@@ -112,11 +112,11 @@ input.w150 { width:150px; }
 .list_pager ul li strong,
 .list_pager ul li a { display:inline-block; padding:8px 10px 9px; border:1px solid #CCC; color:#888; text-decoration:none; line-height:100%; }
 .list_pager ul li strong,
-.list_pager ul li a:hover { background:#07575B; color:#FFF; border:1px solid #07575B; }
+.list_pager ul li a:hover { background:#387288; color:#FFF; border:1px solid #387288; }
 
 /* form */
 .error { display:block; margin:5px 0; padding:5px; background:#F8EAE8; color:#BC2F1C; font-weight:normal; }
-.need {  border: 1px solid #b95719; color: #b95719; padding: 0px 5px; border-radius: 5px; }
+.need {  border: 1px solid #e28631; color: #e28631; padding: 0px 5px; border-radius: 5px; }
 
 /* admin */
 #alert_preview { z-index:100; padding:15px; color:#FFFFFF; background:#CC3129; text-align:center; }
