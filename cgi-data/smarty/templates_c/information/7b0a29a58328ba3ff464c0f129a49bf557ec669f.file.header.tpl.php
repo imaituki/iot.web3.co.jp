@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-17 14:12:59
+<?php /* Smarty version Smarty-3.1.18, created on 2020-02-06 22:12:24
          compiled from "/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:18415913465e1c75d644aa41-35411930%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7b0a29a58328ba3ff464c0f129a49bf557ec669f' => 
     array (
       0 => '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/header.tpl',
-      1 => 1579219847,
+      1 => 1580991143,
       2 => 'file',
     ),
   ),
@@ -28,7 +28,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <header>
 <div id="head">
 	<div class="center">
-		<h1 class="site_logo"><a class="ov" href="/"><img src="https://placehold.jp/594x104.png?text=IoTの窓口byウェブクリエイティブ" alt="ウェブクリエイティブ株式会社"></a></h1>
+		<h1 class="site_logo"><a class="ov" href="/"><img src="https://placehold.jp/594x104.png?text=岡山IoTコンソーシアムみんなのIoT" alt="ウェブクリエイティブ株式会社"></a></h1>
 		<div id="head_navi">
 			<ul>
 				<li class=""><a href="/information/">お知らせ</a></li>

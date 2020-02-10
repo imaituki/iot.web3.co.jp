@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2019-11-07 11:33:04
+<?php /* Smarty version Smarty-3.1.18, created on 2020-02-10 12:33:45
          compiled from "./check.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6846482525d303928db3c50-84677633%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5b4b2052636ec9f26a16ab03f9e8ef7a8dc00733' => 
     array (
       0 => './check.tpl',
-      1 => 1572954120,
+      1 => 1581305589,
       2 => 'file',
     ),
   ),
@@ -20,23 +20,21 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'template_meta' => 0,
-    '_RENEWAL_DIR' => 0,
     'template_javascript' => 0,
     'template_header' => 0,
     'arr_post' => 0,
-    'OptionContent' => 0,
     'template_footer' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5d303928e050a8_55083477')) {function content_5d303928e050a8_55083477($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5d303928e050a8_55083477')) {function content_5d303928e050a8_55083477($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_select_ken')) include '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/cgi-data/smarty/libs/plugins/function.html_select_ken.php';
+?><!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
 <?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_meta']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/css/import.css">
+<link rel="stylesheet" href="/common/css/import.css">
 <?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_javascript']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 </head>
@@ -47,8 +45,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <main>
 <div id="body">
 	<div id="page_title">
-		<div class="img_back"><img src="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/common/image/contents/form_top.jpg" alt="お問い合わせ"></div>
+		<div class="img_back"><img src="/common/image/contents/form_top.jpg" alt="お問い合わせ"></div>
 		<div class="page_title_wrap">
 			<div class="center mincho cg">
 				<h2><span class="main">お問い合わせ</span><span class="sub">Contact</span></h2>
@@ -58,8 +55,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<div id="pankuzu" class="bg_gg">
 		<div class="center">
 			<ul>
-				<li><a href="<?php echo $_smarty_tpl->tpl_vars['_RENEWAL_DIR']->value;?>
-/"><i class="fa fa-home"></i></a></li>
+				<li><a href="/"><i class="fa fa-home"></i></a></li>
 				<li>お問い合わせ</li>
 			</ul>
 		</div>
@@ -71,21 +67,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<form action="./#form" method="post">
 				<table class="tbl_form mb50">
 					<tbody>
-						<tr class="first">
-							<th scope="row">お問い合わせ項目</th>
-							<td><?php echo $_smarty_tpl->tpl_vars['OptionContent']->value[$_smarty_tpl->tpl_vars['arr_post']->value['content']];?>
-<input type="hidden" name="content" value="<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['content'];?>
-" ></td>
-						</tr>
 						<?php if ($_smarty_tpl->tpl_vars['arr_post']->value['company']) {?>
-						<tr>
+						<tr class="first">
 							<th scope="row">会社名</th>
 							<td><?php echo $_smarty_tpl->tpl_vars['arr_post']->value['company'];?>
 <input type="hidden" name="company" value="<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['company'];?>
 "></td>
 						</tr>
 						<?php }?>
-						<tr>
+						<tr <?php if ($_smarty_tpl->tpl_vars['arr_post']->value['company']==null) {?>class="first"<?php }?>>
 							<th scope="row">名前</th>
 							<td><?php echo $_smarty_tpl->tpl_vars['arr_post']->value['name'];?>
 <input type="hidden" name="name" value="<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['name'];?>
@@ -98,13 +88,31 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 " ></td>
 						</tr>
 						<tr>
+							<th class="pos-vt">住所</th>
+							<td>〒<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['zip'];?>
+<br>
+								<?php echo smarty_function_html_select_ken(array('selected'=>(($tmp = @$_smarty_tpl->tpl_vars['arr_post']->value['prefecture'])===null||$tmp==='' ? '' : $tmp),'pre'=>1),$_smarty_tpl);?>
+ <?php echo $_smarty_tpl->tpl_vars['arr_post']->value['address1'];?>
+<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['address2'];?>
+
+								<input type="hidden" name="zip" value="<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['zip'];?>
+">
+								<input type="hidden" name="prefecture" value="<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['prefecture'];?>
+">
+								<input type="hidden" name="address1" value="<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['address1'];?>
+">
+								<input type="hidden" name="address2" value="<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['address2'];?>
+">
+							</td>
+						</tr>
+						<tr>
 							<th scope="row">電話番号</th>
 							<td><?php echo $_smarty_tpl->tpl_vars['arr_post']->value['tel'];?>
 
 								<input type="hidden" name="tel" value="<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['tel'];?>
 ">
 							</td>
-							</tr>
+						</tr>
 						<tr>
 							<th scope="row">メールアドレス</th>
 							<td><?php echo $_smarty_tpl->tpl_vars['arr_post']->value['mail'];?>

@@ -13,7 +13,7 @@
 
 [住所]
 〒{$arr_post.zip}<br>
-{html_select_ken selected=$arr_post.prefecture|default:"" pre=1} {$arr_post.address}
+{html_select_ken selected=$arr_post.prefecture|default:"" pre=1} {$arr_post.address1}{$arr_post.address2}
 
 [電話番号]
 {$arr_post.tel|default:""}

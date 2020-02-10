@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-03 02:06:42
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-30 10:27:36
          compiled from "../template/list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:7149574185d9c176dc9e495-03290483%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '536be3878faadbfd3173360df0efbc870ffbb3e2' => 
     array (
       0 => '../template/list.tpl',
-      1 => 1576635762,
+      1 => 1578965342,
       2 => 'file',
     ),
   ),
@@ -76,7 +76,7 @@ $_smarty_tpl->tpl_vars['case']->_loop = true;
 				<?php }?>
 			</td>
 			<td>
-				<?php echo $_smarty_tpl->tpl_vars['OptionCaseCategory']->value[$_smarty_tpl->tpl_vars['case']->value['case_category']];?>
+				<?php echo $_smarty_tpl->tpl_vars['OptionCaseCategory']->value[$_smarty_tpl->tpl_vars['case']->value['id_case_category']];?>
 
 			</td>
 			<td><a href="./edit.php?id=<?php echo $_smarty_tpl->tpl_vars['case']->value[$_smarty_tpl->tpl_vars['_CONTENTS_ID']->value];?>

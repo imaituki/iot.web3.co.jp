@@ -84,6 +84,7 @@ if( empty( $_POST["_contents_conf_path"] ) || empty( $_FILES ) ) {
 									break;
 									case 3:
 										$newImage["imageSrc"]     = imagecreatefrompng( $_FILES[$val["name"]]["tmp_name"][$key3] ) or die("errSrcPng!\n");
+										
 										$newImage["extension"]    = "png";
 										$originImage["extension"] = "png";
 										$fn   = "png";
@@ -193,6 +194,7 @@ if( empty( $_POST["_contents_conf_path"] ) || empty( $_FILES ) ) {
 								$pathInfo["filename"] = $val["option"]["s"]["fileName"];
 
 							}
+							
 							// 出力
 							$html  = "<img src=\"/admin/common/php/imageDisp.php?dir=" . $arr_post["_contents_dir"] . "&image=" . $val["name"] . "&time=" . strtotime("now") . "\" />&nbsp;";
 							$html .= "<span class=\"c_red\"> ※この画像はプレビュー用です。まだ保存されていません。 </span><br />";

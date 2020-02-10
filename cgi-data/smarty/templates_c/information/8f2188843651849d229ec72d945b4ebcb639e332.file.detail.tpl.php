@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-14 10:41:18
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-30 10:43:32
          compiled from "./detail.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2757114125d3190444dac38-34312452%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8f2188843651849d229ec72d945b4ebcb639e332' => 
     array (
       0 => './detail.tpl',
-      1 => 1578965333,
+      1 => 1580348306,
       2 => 'file',
     ),
   ),
@@ -51,11 +51,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="img_back"><img src="/common/image/contents/form_top.jpg" alt="お知らせ"></div>
 		<div class="page_title_wrap">
 			<div class="center mincho c2">
-				<h2><span class="main">お知らせ</span><span class="sub">News</span></h2>
+				<h2><span class="main">お知らせ</span><span class="sub">Information</span></h2>
 			</div>
 		</div>
 	</div>
-	<div id="pankuzu" class="bg_gg">
+	<div id="pankuzu">
 		<div class="center">
 			<ul>
 				<li><a href="/"><i class="fa fa-home"></i></a></li>

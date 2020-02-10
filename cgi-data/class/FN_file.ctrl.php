@@ -364,6 +364,8 @@ class FN_file {
 		// コピー先のイメージを作成（拡大）
 		if( function_exists("ImageCreateTrueColor") ) {
 			$Option["newImage"]["imageDst"] = imagecreatetruecolor( $Option["newImage"]["width"], $Option["newImage"]["height"] ) or die("errDst!\n");
+			imagealphablending( $Option["newImage"]["imageDst"], false );
+				imagesavealpha( $Option["newImage"]["imageDst"], true );
 		} else {
 			$Option["newImage"]["imageDst"] = ImageCreate( $Option["newImage"]["width"], $Option["newImage"]["height"] ) or die("errDst!\n");
 		}
@@ -382,6 +384,7 @@ class FN_file {
 		// 画像のコピー
 		switch( $Option["newImage"]["extension"] ) {
 			case "png":
+				
 				ImagePNG( $Option["newImage"]["imageDst"], $Option["newImage"]["savePath"], 9 );
 			break;
 			case "jpg":

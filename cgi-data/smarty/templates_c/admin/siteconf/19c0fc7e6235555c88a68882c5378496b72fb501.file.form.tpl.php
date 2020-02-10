@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-03 01:50:27
+<?php /* Smarty version Smarty-3.1.18, created on 2020-01-30 09:20:09
          compiled from "/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/admin/contents/siteconf/template/form.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3924817205e0e1f53138a27-37453206%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '19c0fc7e6235555c88a68882c5378496b72fb501' => 
     array (
       0 => '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/admin/contents/siteconf/template/form.tpl',
-      1 => 1576635764,
+      1 => 1578965343,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5e0e1f531cd153_85575215',
   'variables' => 
   array (
     'mode' => 0,
@@ -30,8 +32,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '_CONTENTS_CONF_PATH' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5e0e1f531cd153_85575215',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5e0e1f531cd153_85575215')) {function content_5e0e1f531cd153_85575215($_smarty_tpl) {?><form class="form-horizontal" action="./<?php if ($_smarty_tpl->tpl_vars['mode']->value=='edit') {?>update<?php } else { ?>insert<?php }?>.php" method="post" enctype="multipart/form-data">
 	<div class="ibox-content">

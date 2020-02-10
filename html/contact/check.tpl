@@ -51,10 +51,11 @@
 						<tr>
 							<th class="pos-vt">住所</th>
 							<td>〒{$arr_post.zip}<br>
-								{html_select_ken selected=$arr_post.prefecture|default:"" pre=1} {$arr_post.address}
+								{html_select_ken selected=$arr_post.prefecture|default:"" pre=1} {$arr_post.address1}{$arr_post.address2}
 								<input type="hidden" name="zip" value="{$arr_post.zip}">
 								<input type="hidden" name="prefecture" value="{$arr_post.prefecture}">
-								<input type="hidden" name="address" value="{$arr_post.address}">
+								<input type="hidden" name="address1" value="{$arr_post.address1}">
+								<input type="hidden" name="address2" value="{$arr_post.address2}">
 							</td>
 						</tr>
 						<tr>

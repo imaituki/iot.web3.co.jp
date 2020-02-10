@@ -17,11 +17,8 @@ $message = NULL;
 
 // 操作クラス
 $objManage  = new DB_manage( _DNS );
-if( $arr_post["content"] == 2 ) {
-	$objContact = new FT_contact($_ARR_MAIL["contact"]["savePath"] );
-} else{
-	$objContact = new FT_contact($_ARR_MAIL["recruit"]["savePath"] );
-}
+$objContact = new FT_contact( $_ARR_MAIL["contact"]["savePath"] );
+
 
 //----------------------------------------
 //  メール送信
@@ -31,7 +28,7 @@ if( empty( $message["ng"] ) ) {
 
 	// メール設定情報の取得
 	$mail_conf = $objContact->GetDataXml( $objContact->GetArrayXml() );
-
+	
 	// データ変換
 	if( !empty( $arr_post["mail"] ) ) {
 		$arr_post["mail"] = mb_convert_kana( $arr_post["mail"], "a", "utf-8" );
@@ -91,7 +88,7 @@ if( empty( $message["ng"] ) ) {
 	$header1 .= "Content-Transfer-Encoding: 7bit\n";
 
 	// お客様へ
-	$error_flg1 = mb_send_mail( $arr_post["mail"], $mail_conf["user"]["title"], $mail1, $header1 );
+//	$error_flg1 = mb_send_mail( $arr_post["mail"], $mail_conf["user"]["title"], $mail1, $header1 );
 
 
 	//----------------------------------------
@@ -104,7 +101,7 @@ if( empty( $message["ng"] ) ) {
 	$header2 .= "Content-Transfer-Encoding: 7bit\n";
 
 	// お客様へ
-	$error_flg2 = mb_send_mail( $mail_conf["info"]["admin_mail"], $mail_conf["master"]["title"], $mail2, $header2 );
+//	$error_flg2 = mb_send_mail( $mail_conf["info"]["admin_mail"], $mail_conf["master"]["title"], $mail2, $header2 );
 
 
 	// 送信チェック

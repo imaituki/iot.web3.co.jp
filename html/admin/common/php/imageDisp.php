@@ -22,7 +22,8 @@ if( !empty( $_SESSION["admin"][$_GET["dir"]]["preview"][$_GET["image"]] ) ) {
 		
 		// 画像リソースを取得
 		$img = @$function1( $_SESSION["admin"][$_GET["dir"]]["preview"][$_GET["image"]]["tmp_name"] );
-		
+		imagealphablending( $img, false );
+		imagesavealpha( $img, true );
 		// typeを調整
 		$type = explode('/', $_SESSION["admin"][$_GET["dir"]]["preview"][$_GET["image"]]["type"] );
 		if( !empty( $type[1] ) ){

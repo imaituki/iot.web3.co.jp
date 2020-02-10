@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-01-17 09:10:50
+<?php /* Smarty version Smarty-3.1.18, created on 2020-02-06 21:21:24
          compiled from "/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3050488955e0e007b648567-32616972%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '44e8dbc28d5620421342a103b7d97d420fdd4d5e' => 
     array (
       0 => '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/common/include/footer.tpl',
-      1 => 1579219847,
+      1 => 1580991679,
       2 => 'file',
     ),
   ),
@@ -26,15 +26,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_5e0e007b6a8595_65099116')) {function content_5e0e007b6a8595_65099116($_smarty_tpl) {?><footer>
 <div id="foot_contact" class="wrapper">
 	<div class="center">
-		<h3 class="hl_2 c0"><span class="main mincho">Contact</span><span class="sub">お問い合わせ・ご相談</span></h3>
+		<h3 class="hl_2 c0"><span class="main">Contact</span><span class="sub">お問い合わせ・ご相談</span></h3>
 		<p class="c0 mb20 pos_ac">IoTに関するご質問や、導入・業務提携に関するご相談等ございましたら、お気軽にお問い合わせください。</p>
 		<div class="row radius_box">
 			<div class="col-sm-6">
 				<div class="height-1">
-					<h4 class="hl_4 mincho bg_g1 c0">お電話でのお問い合わせ</h4>
+					<h4 class="hl_4 bg_g1 c0">お電話でのお問い合わせ</h4>
 					<div class="tel_unit">
 						<div class="tel_wrap">
-							<span class="tel mincho" data-tel="<?php echo $_smarty_tpl->tpl_vars['mst_siteconf']->value['tel'];?>
+							<span class="tel" data-tel="<?php echo $_smarty_tpl->tpl_vars['mst_siteconf']->value['tel'];?>
 "><i class="fa fa-phone-alt"></i> <?php echo $_smarty_tpl->tpl_vars['mst_siteconf']->value['tel'];?>
 </span>
 							<span class="times">受付時間　<?php echo $_smarty_tpl->tpl_vars['mst_siteconf']->value['worktime'];?>

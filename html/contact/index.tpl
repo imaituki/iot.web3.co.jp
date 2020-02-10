@@ -76,11 +76,11 @@
 								<dl>
 									<dt>市区町村</dt>
 									<dd class="w-420">
-										<input name="address" value="{$arr_post.address1|default:""}" type="text">
+										<input name="address1" value="{$arr_post.address1|default:""}" type="text">
 									</dd>
 									<dt>番地／建物・マンション名等</dt>
 									<dd class="w-420">
-										<input name="address" value="{$arr_post.address2|default:""}" type="text">
+										<input name="address2" value="{$arr_post.address2|default:""}" type="text">
 									</dd>
 								</dl>
 							</td>

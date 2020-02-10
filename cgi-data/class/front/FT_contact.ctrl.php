@@ -77,11 +77,14 @@ class FT_contact {
 		$objInputCheck = new FN_input_check( "UTF-8" );
 
 		// チェックエントリー
-		$objInputCheck->entryData( "お問い合わせ項目"                , "content"   , $arrVal["content"]     , array( "CHECK_EMPTY_ZERO" ), null, null );
 		$objInputCheck->entryData( "お名前", "name", $arrVal["name"], array( "CHECK_EMPTY", "CHECK_MIN_MAX_LEN" ), 0, 255 );
 		$objInputCheck->entryData( "フリガナ", "ruby", $arrVal["ruby"], array( "CHECK_EMPTY", "CHECK_MIN_MAX_LEN", "CHECK_KANA" ), 0, 255 );
-		$objInputCheck->entryData( "メールアドレス", "mail", $arrVal["mail"], array( "CHECK_EMPTY", "CHECK_MIN_MAX_LEN", "CHECK_MAIL" ), 0, 255 );
+		$objInputCheck->entryData( "郵便番号", "zip", $arrVal["zip"], array( "CHECK_EMPTY", "CHECK_MIN_MAX_LEN", "CHECK_ZIP" ), 0, 8 );
+		$objInputCheck->entryData( "都道府県", "prefecture", $arrVal["prefecture"], array( "CHECK_EMPTY_ZERO" ), null, null );
+		$objInputCheck->entryData( "お名前", "name", $arrVal["name"], array( "CHECK_EMPTY", "CHECK_MIN_MAX_LEN" ), 0, 255 );
+		$objInputCheck->entryData( "市区町村", "address1", $arrVal["address1"], array( "CHECK_EMPTY", "CHECK_MIN_MAX_LEN" ), 0, 255 );
 		$objInputCheck->entryData( "電話番号", "tel", $arrVal["tel"], array( "CHECK_EMPTY", "CHECK_TEL" ), null, null );
+		$objInputCheck->entryData( "メールアドレス", "mail", $arrVal["mail"], array( "CHECK_EMPTY", "CHECK_MIN_MAX_LEN", "CHECK_MAIL" ), 0, 255 );
 		$objInputCheck->entryData( "お問い合わせ内容", "comment", $arrVal["comment"], array( "CHECK_EMPTY" ), null, null );
 
 		// チェック実行

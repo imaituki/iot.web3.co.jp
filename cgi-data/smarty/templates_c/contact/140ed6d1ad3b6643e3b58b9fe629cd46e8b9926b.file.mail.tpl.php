@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2019-11-07 15:34:11
+<?php /* Smarty version Smarty-3.1.18, created on 2020-02-10 12:34:14
          compiled from "./mail.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:20353915845d318193c8a8e6-11984331%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '140ed6d1ad3b6643e3b58b9fe629cd46e8b9926b' => 
     array (
       0 => './mail.tpl',
-      1 => 1573108446,
+      1 => 1581305589,
       2 => 'file',
     ),
   ),
@@ -20,20 +20,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'arr_post' => 0,
-    'OptionContent' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5d318193ce0e51_25120634')) {function content_5d318193ce0e51_25120634($_smarty_tpl) {?>--------------------------------------------------------
+<?php if ($_valid && !is_callable('content_5d318193ce0e51_25120634')) {function content_5d318193ce0e51_25120634($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_select_ken')) include '/data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/cgi-data/smarty/libs/plugins/function.html_select_ken.php';
+?>--------------------------------------------------------
 ■ お問い合わせ内容
 --------------------------------------------------------
-[お問い合わせ項目]
-<?php echo $_smarty_tpl->tpl_vars['OptionContent']->value[$_smarty_tpl->tpl_vars['arr_post']->value['content']];?>
-
-
-<?php if ($_smarty_tpl->tpl_vars['arr_post']->value['company']) {?>[会社名]
+<?php if ($_smarty_tpl->tpl_vars['arr_post']->value['company']) {?>
+[会社名]
 <?php echo (($tmp = @$_smarty_tpl->tpl_vars['arr_post']->value['company'])===null||$tmp==='' ? '' : $tmp);?>
-
 
 <?php }?>
 [名前]
@@ -42,6 +38,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 [フリガナ]
 <?php echo (($tmp = @$_smarty_tpl->tpl_vars['arr_post']->value['ruby'])===null||$tmp==='' ? '' : $tmp);?>
+
+
+[住所]
+〒<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['zip'];?>
+<br>
+<?php echo smarty_function_html_select_ken(array('selected'=>(($tmp = @$_smarty_tpl->tpl_vars['arr_post']->value['prefecture'])===null||$tmp==='' ? '' : $tmp),'pre'=>1),$_smarty_tpl);?>
+ <?php echo $_smarty_tpl->tpl_vars['arr_post']->value['address1'];?>
+<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['address2'];?>
 
 
 [電話番号]
