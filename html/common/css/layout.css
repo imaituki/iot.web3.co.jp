@@ -9,7 +9,6 @@
 html { background:#fff; }
 body { position:relative; text-align:center; overflow-x:hidden; }
 #base, #body { position:relative; }
-p{color: #387288;}
 
 .wrapper, .wrapper-t, .wrapper-b { position:relative; }
 	@media (max-width: 991px){
@@ -148,10 +147,11 @@ p{color: #387288;}
 @media (min-width: 768px){
 #foot_contact .border_l{ border-left: 1px solid #999;}
 }
-#foot_contact h3.hl_2{margin-bottom: 20px; font-size: 2em;}
+#foot_contact h3.hl_2{margin-bottom: 30px; font-size: 2em;}
 #foot_contact h3.hl_2 .sub {font-size: 0.75em;}
 .radius_box { background:rgba(255,255,255,0.8); border-radius:5px; overflow:hidden; }
 .tel_unit h5 { text-align:center; padding:5px; margin:0 auto 10px; font-size:1.1em; color:#387288; border:1px solid #387288; max-width:350px; }
+#foot_contact .radius_box .hl_4{ color: #e28631; border: 2px solid #e28631;}
 .tel_wrap { text-align:center; }
 .tel_wrap span { display:block; line-height:140%; }
 .tel_wrap .times { color:#999; margin-bottom:20px; }
@@ -204,7 +204,7 @@ body.pc .foot_sub_navi a:hover { text-decoration:underline; }
 	}
 	@media (min-width: 768px){
 		#foot_navi { max-width:440px; margin:0 0 0 auto; }
-		#foot_navi a { color:#387288; text-decoration:none; }
+		#foot_navi a { color:#2c4764; text-decoration:none; }
 		#foot_navi a:before { content:"\f105"; color:#66a5ad; padding:0 10px 0 0; }
 		body.pc #foot_navi a:hover { text-decoration:underline; }
 

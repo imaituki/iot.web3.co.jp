@@ -31,7 +31,7 @@
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+						<h1 class=" c1"><span>IoTを活用して<br>事業・作業を自動化しませんか</span><br>IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+						<h1 class=" c1"><span>IoTを活用して<br>事業・作業を自動化しませんか</span><br>IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -53,7 +53,7 @@
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+						<h1 class=" c1"><span>IoTを活用して<br>事業・作業を自動化しませんか</span><br>IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+						<h1 class=" c1"><span>IoTを活用して<br>事業・作業を自動化しませんか</span><br>IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -75,7 +75,7 @@
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
-						<h1 class=" c1"><span>IoTを活用して<br>岡山を活性化しませんか</span><br>コンソーシアム、IoT導入に関する<br>ご相談をお待ちしています</h1>
+						<h1 class=" c1"><span>IoTを活用して<br>事業・作業を自動化しませんか</span><br>IoT導入に関する<br>ご相談をお待ちしています</h1>
 					</div>
 				</div>
 			</div>
@@ -83,7 +83,7 @@
 	</div>
 	<section>
 		<div class="center wrapper first" id="top_1">
-            <h2 class="hl_1 pos_ac ">ビジネス課題を解決し、要件定義から運用アシストまで<br class="none">価値あるサービスづくりをお客さまと実現します。</h2>
+            <h2 class="hl_1 pos_ac ">IoTを利用してビジネスの課題を解決！<br class="none">導入から、運用まで、お客様のIT化をサポートします。</h2>
             <div class="row mb20 bg_g">
 				<div class="col-sm-4 col-sm-push-8 height-1 before">
 					<p class="text">before</p>
@@ -121,11 +121,11 @@
 		</div>
 	</section>
 	<section>
-		<div class="bg_g" id="top_2">
+		<div id="top_2">
 			<div class="center wrapper">
 				<div class="pos_ac hl_1 ">
-	                <h2 class="title">「岡山IoTコンソーシアムみんなのIoT」の強み</h2>
-	                <h2 class="sub">Advantage</h2>
+	                <h2 class="title c_or">岡山IoTコンソーシアム「みんなのIoT」の強み</h2>
+	                <h2 class="sub">お客様の悩みに合わせた解決が得意です</h2>
 	            </div>
 				<div class="row">
 					<div class="col-sm-4">
@@ -154,52 +154,52 @@
 		</div>
 	</section>
 	<section>
-		<div class="wrapper-t center">
+		<div class="wrapper-t center"  id="top_3">
 			<div class="pos_ac hl_1 ">
-				<h2 class="title">このようなお悩みをお持ちの方に</h2>
-				<h2 class="sub">Worries</h2>
+				<h2 class="title _bl">このようなお悩みをお持ちの方に</h2>
+				<h2 class="sub">IT化でお悩みの会社様が対象です</h2>
 			</div>
 			<div class="question row">
 				<div class="col-sm-4">
-					<div class="q_unit height-1">
+					<div class="q_unit height-1 _bg">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>01</h3>
-						<p>ハードの作り方が分からない</p>
+						<p class="pos_ac">ハードの作り方が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="q_unit height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>02</h3>
-						<p>通信をつなげる方法が分からない</p>
+						<p class="pos_ac">通信をつなげる方法が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="q_unit height-1">
+					<div class="q_unit height-1 _bg">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>03</h3>
-						<p>データ管理の方法が分からない</p>
+						<p class="pos_ac">データ管理の方法が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="q_unit height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>04</h3>
-						<p>データの可視化・分析方法が分からない</p>
+						<p class="pos_ac">データの可視化・分析方法が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="q_unit height-1">
+					<div class="q_unit height-1 _bg">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>05</h3>
-						<p>AIの作り方が分からない</p>
+						<p class="pos_ac">AIの作り方が分からない</p>
 					</div>
 				</div>
 				<div class="col-sm-4">
 					<div class="q_unit height-1">
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3>06</h3>
-						<p>モーターの制御方法が分からない</p>
+						<p class="pos_ac">モーターの制御方法が分からない</p>
 					</div>
 				</div>
 			</div>
@@ -259,7 +259,6 @@
 						<div class="pos_ar">
 							<a href="/case/">一覧を見る <i class="fa fa-arrow-alt-circle-right"></i></a>
 						</div>
-					</div>
 					</div>
 				</div>
 			</div>

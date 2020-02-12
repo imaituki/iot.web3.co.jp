@@ -2,11 +2,11 @@
 <div id="foot_contact" class="wrapper">
 	<div class="center">
 		<h3 class="hl_2 c0"><span class="main">Contact</span><span class="sub">お問い合わせ・ご相談</span></h3>
-		<p class="c0 mb20 pos_ac">IoTに関するご質問や、導入・業務提携に関するご相談等ございましたら、お気軽にお問い合わせください。</p>
+		<p class="c0 mb20">IoTに関するご質問や、導入・業務提携に関するご相談等ございましたら、お気軽にお問い合わせください。</p>
 		<div class="row radius_box">
 			<div class="col-sm-6">
 				<div class="height-1">
-					<h4 class="hl_4 bg_g1 c0">お電話でのお問い合わせ</h4>
+					<h4 class="hl_4">お電話でのお問い合わせ</h4>
 					<div class="tel_unit">
 						<div class="tel_wrap">
 							<span class="tel" data-tel="{$mst_siteconf.tel}"><i class="fa fa-phone-alt"></i> {$mst_siteconf.tel}</span>
