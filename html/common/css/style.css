@@ -499,6 +499,7 @@ body.pc .parallax[data-parallax-in="right"]:not(.parallax_on) { right:-100vw; }
 .fa_b:before,
 .fa_a:after { font-family:"Font Awesome 5 Free"; display:inline-block; font-weight:900; font-style:normal; font-variant:normal; text-rendering:auto;
 	line-height:1; -moz-osx-font-smoothing:grayscale; -webkit-font-smoothing:antialiased; }
+.montserrat{font-family:"Montserrat"; }
 
 @media (min-width: 768px){
 	.pc_none { display:none !important; }

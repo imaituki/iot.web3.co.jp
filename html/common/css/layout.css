@@ -147,9 +147,11 @@ body { position:relative; text-align:center; overflow-x:hidden; }
 @media (min-width: 768px){
 #foot_contact .border_l{ border-left: 1px solid #999;}
 }
-#foot_contact h3.hl_2{margin-bottom: 30px; font-size: 2em;}
+#foot_contact h3.hl_2{font-size: 2em;  margin-bottom: 30px;}
 #foot_contact h3.hl_2 .sub {font-size: 0.75em;}
 .radius_box { background:rgba(255,255,255,0.8); border-radius:5px; overflow:hidden; }
+.radius_box .mr30{margin-right: 30px;}
+.radius_box .ml30{margin-left: 30px;}
 .tel_unit h5 { text-align:center; padding:5px; margin:0 auto 10px; font-size:1.1em; color:#387288; border:1px solid #387288; max-width:350px; }
 #foot_contact .radius_box .hl_4{ color: #e28631; border: 2px solid #e28631;}
 .tel_wrap { text-align:center; }
