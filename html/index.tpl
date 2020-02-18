@@ -154,7 +154,7 @@
 		</div>
 	</section>
 	<section>
-		<div class="wrapper-t center"  id="top_3">
+		<div class="wrapper center"  id="top_3">
 			<div class="pos_ac hl_1 ">
 				<h2 class="title _bl">このようなお悩みをお持ちの方に</h2>
 				<h2 class="sub">IT化でお悩みの会社様が対象です</h2>
@@ -200,6 +200,36 @@
 						<p class="q_ico"><i class="fas fa-question"></i></p>
 						<h3 class="montserrat">06</h3>
 						<p class="pos_ac">モーターの制御方法が分からない</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div id="top_4">
+			<div class="center wrapper">
+				<div class="pos_ac hl_1 ">
+	                <h2 class="title c_or">解決事例</h2>
+	                <h2 class="sub">IoT化のことならお任せください</h2>
+	            </div>
+				<div class="row">
+					<div class="col-xs-6 height-1 cow">
+						<p><img src="/common/image/contents/top/case.png" alt="解決事例"></p>
+					</div>
+					<div class="col-xs-6 height-1 text">
+						<div class="unit">
+							<p class="pos_ac">
+								データの管理やバックアップがしにくい...<br>
+								天気を気にした管理に手間がかかる...<br>
+								私たちのロジックで制御できない...
+							</p>
+							<p class="pos_ac arrow"><img src="/common/image/contents/top/arrow_b.png" alt="解決事例"></p>
+							<h3 class="pos_ac">牛舎の室内環境や<br />健康/病気管理のモニタリング</h3>
+							<ul>
+								<li>各種センサーが計測した値を使用して環境や体調を管理</li>
+								<li>外出先でもスマホで管理</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
