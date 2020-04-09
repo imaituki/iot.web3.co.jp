@@ -68,8 +68,8 @@
 		<div class="row">
 			<div class="col-sm-6 col-sm-push-6">
 				<div class="foot_sub_navi">
-					{*<a href="/security/">情報セキュリティ基本方針</a>
-					<a href="/privacy/">プライバシーポリシー</a>*}
+					<a href="/security/">情報セキュリティ基本方針</a>
+					<a href="/privacy/">プライバシーポリシー</a>
 				</div>
 			</div>
 			<div class="col-sm-6 col-sm-pull-6">&copy; Copyright 2020 ウェブクリエイティブ株式会社 All rights Reserved.</div>
