@@ -261,9 +261,11 @@
 							<div>お知らせはありません。</div>
 							{/foreach}
 						</div>
+						{if $t_information !=NULL}
 						<div class="pos_ar">
 							<a href="/information/">一覧を見る <i class="fa fa-arrow-alt-circle-right"></i></a>
 						</div>
+						{/if}
 					</div>
 					<div class="col-sm-6">
 						<div id="top_case" class="height-1 mb20">
@@ -286,9 +288,11 @@
 							<div>実績紹介はありません。</div>
 							{/foreach}
 						</div>
+						{if $t_case !=NULL}
 						<div class="pos_ar">
 							<a href="/case/">一覧を見る <i class="fa fa-arrow-alt-circle-right"></i></a>
 						</div>
+						{/if}
 					</div>
 				</div>
 			</div>
