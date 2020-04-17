@@ -1,0 +1,91 @@
+Apr  9 13:22:31 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:15 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:18 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [DEBUG] Command [mkd] [flow]
+Apr  9 13:25:18 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/index.php uploaded  (861 bytes, 1143.90KB/sec)
+Apr  9 13:25:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/config.ini uploaded  (895 bytes, 1133.56KB/sec)
+Apr  9 13:25:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/index.tpl uploaded  (906 bytes, 1675.38KB/sec)
+Apr  9 13:25:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:35 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:36 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:36 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/index.tpl uploaded  (903 bytes, 1615.15KB/sec)
+Apr  9 13:25:36 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:52 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:25:52 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/index.tpl uploaded  (902 bytes, 757.40KB/sec)
+Apr  9 13:25:52 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:26:02 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:26:02 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/index.tpl uploaded  (905 bytes, 1197.31KB/sec)
+Apr  9 13:26:02 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:26:14 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:26:14 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/index.tpl uploaded  (911 bytes, 1654.01KB/sec)
+Apr  9 13:26:14 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:26:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:26:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:27:11 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [DEBUG] Command [mkd] [partner]
+Apr  9 13:27:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:27:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:27:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/partner/config.ini uploaded  (904 bytes, 813.62KB/sec)
+Apr  9 13:27:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:27:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/partner/index.tpl uploaded  (924 bytes, 763.51KB/sec)
+Apr  9 13:27:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:27:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/partner/index.php uploaded  (867 bytes, 1216.59KB/sec)
+Apr  9 13:27:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:28:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:28:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:28:12 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:30:22 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:30:22 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/index.tpl uploaded  (13123 bytes, 7026.38KB/sec)
+Apr  9 13:30:22 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:31:22 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:31:27 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:31:30 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:31:32 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:31:32 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/common/include/footer.tpl uploaded  (3174 bytes, 2114.28KB/sec)
+Apr  9 13:31:33 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:31:54 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:31:54 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/common/include/footer.tpl uploaded  (3174 bytes, 2117.38KB/sec)
+Apr  9 13:31:54 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:32:54 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:36:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [DEBUG] Command [mkd] [privacy]
+Apr  9 13:36:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:36:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:36:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/privacy/index.tpl uploaded  (941 bytes, 1603.97KB/sec)
+Apr  9 13:36:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:36:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/privacy/index.php uploaded  (861 bytes, 947.77KB/sec)
+Apr  9 13:36:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:36:19 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/privacy/config.ini uploaded  (913 bytes, 903.30KB/sec)
+Apr  9 13:36:20 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:36:21 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:36:21 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/index.tpl uploaded  (13123 bytes, 3220.02KB/sec)
+Apr  9 13:36:21 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:36:31 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:36:31 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/common/include/footer.tpl uploaded  (3170 bytes, 2047.35KB/sec)
+Apr  9 13:36:31 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:37:08 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:37:08 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:37:08 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/privacy/index.tpl uploaded  (941 bytes, 866.14KB/sec)
+Apr  9 13:37:08 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:37:08 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/privacy/config.ini uploaded  (913 bytes, 1190.59KB/sec)
+Apr  9 13:37:08 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:37:08 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/privacy/index.php uploaded  (876 bytes, 2160.20KB/sec)
+Apr  9 13:37:14 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:37:14 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/config.ini uploaded  (895 bytes, 1369.93KB/sec)
+Apr  9 13:37:14 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:37:14 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/index.php uploaded  (861 bytes, 429.24KB/sec)
+Apr  9 13:37:14 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:37:14 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/flow/index.tpl uploaded  (911 bytes, 965.95KB/sec)
+Apr  9 13:38:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [DEBUG] Command [mkd] [security]
+Apr  9 13:38:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:38:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:38:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/security/index.tpl uploaded  (979 bytes, 899.50KB/sec)
+Apr  9 13:38:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:38:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/security/index.php uploaded  (883 bytes, 1179.64KB/sec)
+Apr  9 13:38:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] SSL/TLS: Enabled TLSv1/SSLv3 with AES256-GCM-SHA384, 256 secret bits cipher
+Apr  9 13:38:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [NOTICE] /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029//html/security/config.ini uploaded  (903 bytes, 1051.06KB/sec)
+Apr  9 13:39:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:39:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:39:04 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
+Apr  9 13:39:13 s00062 pure-ftpd: (webmaster@iot.web3.co.jp@118.21.102.9) [INFO] Logout.
